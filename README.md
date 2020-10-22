@@ -14,6 +14,8 @@ ffmpeg -i "{video_path}.mp4"  -ss 00:06:00 -vframes 1 "{video_path}.png"
 ## h264 transcoding
 [h264 encoding guide from ffmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
 
+[youtube video encoding guide](https://trac.ffmpeg.org/wiki/Encode/YouTube)
+
 ```
 ffmpeg -i "{input_video_path}.mp4" -vf 'format=yuv420p' -force_key_frames 'expr:gte(t,n_forced*5)' -c:v libx264 -preset slow -crf 22 -c:a copy -movflags +faststart "{output_video_path}.mp4"
 ```
@@ -29,7 +31,9 @@ ffmpeg -y -i 'source.mp4' -vf 'format=yuv420p' -c:v libx264 -b:v 1000k -preset v
 ## vp9 transcoding
 [vp9 encoding guide from ffmpeg](https://trac.ffmpeg.org/wiki/Encode/VP9)
 
+[google media guide](https://developers.google.com/media/vp9/settings/vod/)
+
 ```
-ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -deadline best -pass 1 -an -f null /dev/null && \
-ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -deadline best -pix_fmt yuv420p -pass 2 -c:a libopus 'MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg==.webm'
+ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -quality best -speed 0 -pass 1 -an -f null /dev/null && \
+ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -quality best -speed 0 -pix_fmt yuv420p -pass 2 -c:a libopus 'MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg==.webm'
 ```
