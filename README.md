@@ -16,6 +16,8 @@ ffmpeg -i "{video_path}.mp4"  -ss 00:06:00 -vframes 1 "{video_path}.png"
 
 [youtube video encoding guide](https://trac.ffmpeg.org/wiki/Encode/YouTube)
 
+[rate control](https://slhck.info/video/2017/03/01/rate-control.html)
+
 ```
 ffmpeg -i "{input_video_path}.mp4" -vf 'format=yuv420p' -force_key_frames 'expr:gte(t,n_forced*5)' -c:v libx264 -preset slow -crf 22 -c:a copy -movflags +faststart "{output_video_path}.mp4"
 ```
