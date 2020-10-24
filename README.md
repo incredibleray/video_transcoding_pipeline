@@ -30,6 +30,7 @@ ffmpeg -y -i 'source.mp4' -c:v libx264 -b:v 1000k -preset veryslow -crf 29 -pass
 ffmpeg -y -i 'source.mp4' -vf 'format=yuv420p' -c:v libx264 -b:v 1000k -preset veryslow -crf 29 -pass 2 -c:a copy -movflags +faststart 'MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg==.mp4'
 ```
 
+
 ## vp9 transcoding
 [vp9 encoding guide from ffmpeg](https://trac.ffmpeg.org/wiki/Encode/VP9)
 

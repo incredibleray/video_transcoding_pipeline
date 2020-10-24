@@ -1,0 +1,2 @@
+ffmpeg -y -i 'src_video/MzQpIDYgUHJpbmNpcGxlczogTm8gU2Vla2luZyAtIENoYW4gUWkgLSAwMS8yOC8yMDE4Cg==.mp4' -c:v libx264 -b:v 512k -preset veryslow -crf 34 -pass 1 -an -f null /dev/null && \
+ffmpeg -y -i 'src_video/MzQpIDYgUHJpbmNpcGxlczogTm8gU2Vla2luZyAtIENoYW4gUWkgLSAwMS8yOC8yMDE4Cg==.mp4' -c:v libx264 -b:v 512k -preset veryslow -crf 34 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart 'transcoded_video/MzQpIDYgUHJpbmNpcGxlczogTm8gU2Vla2luZyAtIENoYW4gUWkgLSAwMS8yOC8yMDE4Cg==.mp4'
