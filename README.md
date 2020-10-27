@@ -46,3 +46,12 @@ ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -quality best -speed 0 -pix_fm
 
 
 `ffprobe -v error -show_format -show_streams input.mp4`
+
+# CDN
+
+## CDN purge
+CDN content is cached, if there is an update of the content in storage container, the CDN content is **not** updated (can be stale for up to many days).
+
+To force a sync on CDN, we need to purge the content that is on CDN. 
+
+go to Azure CDN page, click purge, and put `container/${file_name}` in content, click purge.
