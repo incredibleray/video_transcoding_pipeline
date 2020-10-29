@@ -12,6 +12,15 @@ ffmpeg -i "{video_path}.mp4"  -ss 00:06:00 -vframes 1 "{video_path}.png"
 ```
 
 ## h264 transcoding
+
+presets are in the `h264_2pass.sh` script, run 
+
+```
+VIDEO_NAME='...' ./h264_2pass.sh
+```
+
+to transcode.
+
 [h264 encoding guide from ffmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
 
 [youtube video encoding guide](https://trac.ffmpeg.org/wiki/Encode/YouTube)
