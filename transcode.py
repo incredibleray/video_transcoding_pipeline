@@ -3,6 +3,7 @@ import json
 import shlex
 import subprocess
 import base64
+import re
 
 FLAGS = flags.FLAGS
 
@@ -20,7 +21,10 @@ def main(argv):
 
   source_video_name=FLAGS.source_video
   if FLAGS.remove_youtube_dl_filename_suffix:
-    youtube_dl_filename_suffix_start_index=source_video_name.rfind('-')
+    suffix_pattern = re.compile('\d\d_\d\d_\d+(-[\w\d-]+)')
+    suffix_string=suffix_pattern.findall(source_video_name)[0]
+    
+    youtube_dl_filename_suffix_start_index=source_video_name.rfind(suffix_string)
     source_video_name=source_video_name[:youtube_dl_filename_suffix_start_index]
   
   logging.debug('source video name is: %s', source_video_name)
@@ -55,7 +59,7 @@ def main(argv):
       break
 
   if transcode_success:
-    logging.debug('source video %s transcoded to %s', source_video, transcoded_video)
+    logging.debug('source video %s transcoded to %s', FLAGS.source_video, transcoded_video)
   else:
     logging.debug('transcoding FAILED')
 
