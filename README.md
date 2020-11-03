@@ -50,6 +50,9 @@ ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -quality best -speed 0 -pass 1
 ffmpeg -y -i 'source.mp4' -c:v libvpx-vp9 -b:v 1M -quality best -speed 0 -pix_fmt yuv420p -pass 2 -c:a libopus 'MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg==.webm'
 ```
 
+## ogg transcoding
+[ogg ffmpeg](https://trac.ffmpeg.org/wiki/TheoraVorbisEncodingGuide)
+
 ## ffprobe
 [ffprobe tips](https://trac.ffmpeg.org/wiki/FFprobeTips)
 
