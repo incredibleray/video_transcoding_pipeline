@@ -38,9 +38,11 @@ def main(argv):
 
   transcode_success=True
   for cmd_template in (
-    ffmpeg_command.vp9_360p_low_quality_pass_1_cmd_template,
-    ffmpeg_command.vp9_360p_low_quality_pass_2_cmd_template,
-    # generate_thumbnail_cmd_template,
+    ffmpeg_command.h264_240p_pass_1_cmd_template,
+    ffmpeg_command.h264_240p_pass_2_cmd_template,
+    ffmpeg_command.vp9_360p_pass_1_cmd_template,
+    ffmpeg_command.vp9_360p_pass_2_cmd_template,
+    generate_thumbnail_cmd_template,
     ):
     cmd=cmd_template.format(
       source_video=FLAGS.source_video,
