@@ -42,7 +42,7 @@ def main(argv):
     ffmpeg_command.h264_240p_pass_2_cmd_template,
     ffmpeg_command.vp9_360p_pass_1_cmd_template,
     ffmpeg_command.vp9_360p_pass_2_cmd_template,
-    generate_thumbnail_cmd_template,
+    ffmpeg_command.generate_thumbnail_cmd_template,
     ):
     cmd=cmd_template.format(
       source_video=FLAGS.source_video,

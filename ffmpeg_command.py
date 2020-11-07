@@ -15,7 +15,7 @@ ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b
 '''
 
 vp9_360p_pass_2_cmd_template='''
-ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 150k -tile-columns 2 -g 1440 -threads 16 -quality best -speed 0 -crf 41 -pass 2 -c:a libopus "transcoded_video/{transcoded_video}.360p_low.webm"
+ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 150k -tile-columns 2 -g 1440 -threads 16 -quality best -speed 0 -crf 41 -pass 2 -c:a libopus "transcoded_video/{transcoded_video}.webm"
 '''
 
 # WIP
@@ -24,7 +24,7 @@ ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b
 '''
 
 vp9_480p_pass_2_cmd_template='''
-ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 276k -tile-columns 1 -g 1440 -threads 16 -quality good -speed 0 -crf 36 -pass 2 -c:a libopus -b:a 128k "transcoded_video/{transcoded_video}.360p_good.webm"
+ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 276k -tile-columns 1 -g 1440 -threads 16 -quality good -speed 0 -crf 36 -pass 2 -c:a libopus -b:a 128k "transcoded_video/{transcoded_video}.480p.webm"
 '''
 
 # h264 360p bit rate is too high. Reported to have buffering problems.
