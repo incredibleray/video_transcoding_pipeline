@@ -15,7 +15,7 @@ ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b
 '''
 
 vp9_360p_pass_2_cmd_template='''
-ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 150k -tile-columns 2 -g 1440 -threads 16 -quality best -speed 0 -crf 41 -pass 2 -c:a libopus "transcoded_video/{transcoded_video}.webm"
+ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 150k -tile-columns 2 -g 1440 -threads 16 -quality best -speed 0 -crf 41 -pass 2 -c:a libopus -b:a 128k "transcoded_video/{transcoded_video}.webm"
 '''
 
 # WIP
