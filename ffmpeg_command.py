@@ -44,11 +44,26 @@ vp9_480p_pass_2_cmd_template='''
 ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libvpx-vp9 -b:v 276k -tile-columns 1 -g 1440 -threads 16 -quality good -speed 0 -crf 36 -pass 2 -c:a libopus -b:a 128k "transcoded_video/{transcoded_video}.480p.webm"
 '''
 
-# h264 360p bit rate is too high. Reported to have buffering problems.
 h264_360p_pass_1_cmd_template='''
   ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libx264 -b:v 276k -g 1440 -threads 20 -preset veryslow -crf 36 -pass 1 -an -f null /dev/null
   '''
 
 h264_360p_pass_2_cmd_template='''
-  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libx264 -b:v 276k -g 1440 -threads 20 -preset veryslow -crf 36 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.mp4"
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x360 -c:v libx264 -b:v 276k -g 1440 -threads 20 -preset veryslow -crf 36 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.360p.mp4"
+  '''
+
+h264_480p_pass_1_cmd_template='''
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads 20 -preset veryslow -crf 34 -pass 1 -an -f null /dev/null
+  '''
+
+h264_480p_pass_2_cmd_template='''
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads 20 -preset veryslow -crf 34 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.480p.mp4"
+  '''
+
+h264_720p_pass_1_cmd_template='''
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads 20 -preset veryslow -crf 34 -pass 1 -an -f null /dev/null
+  '''
+
+h264_720p_pass_2_cmd_template='''
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads 20 -preset veryslow -crf 34 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.720p.mp4"
   '''
