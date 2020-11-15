@@ -114,6 +114,18 @@ class Video():
       ]
       )
 
+    if generate_thumbnail_task.Run() == False:
+      return False
+
+    if h264_240p_transcode_task.Run() == False:
+      return False
+
+    if h264_360p_transcode_task.Run() == False:
+      return False
+
+    if h264_720p_transcode_task.Run() == False:
+      return False
+
     if vp9_360p_transcode_task.Run() == False:
       return False
 
