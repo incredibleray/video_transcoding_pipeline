@@ -31,6 +31,7 @@ def main(argv):
         'hash': '',
         'path': video._transcoded_video,
         'related_videos': [],
+        'h264_streams':['240p', '360p', '720p']
         }
       manifest.append(manifest_entry)
 

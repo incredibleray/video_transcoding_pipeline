@@ -10,14 +10,18 @@ FLAGS = flags.FLAGS
 
 flags.DEFINE_boolean('remove_youtube_dl_filename_suffix', False, '')
 flags.DEFINE_boolean('keep_source_video_filename', False, '')
+flags.DEFINE_string('source_audio', None, '')
+flags.DEFINE_integer('threads', 16, '')
 
 class VideoTranscodeTask():
   def __init__(self, 
-  source_video, 
+  source_video,
   transcoded_video,
   cmd_templates,
+  source_audio='',
   ):
     self._source_video=source_video
+    self._source_audio=source_audio
     self._transcoded_video=transcoded_video
     self._cmd_templates=cmd_templates
 
@@ -25,7 +29,9 @@ class VideoTranscodeTask():
     for cmd_template in self._cmd_templates:
       cmd=cmd_template.format(
         source_video=self._source_video,
-        transcoded_video=self._transcoded_video)
+        transcoded_video=self._transcoded_video,
+        source_audio=self._source_audio,
+        threads=FLAGS.threads)
 
       args = shlex.split(cmd)
       logging.debug(args)
@@ -74,13 +80,18 @@ class Video():
       'transcoded video is: %s', 
       transcoded_video)
 
+    source_audio=''
+    if FLAGS.source_audio is not None:
+      source_audio='-i "src_video/{}.m4a"'.format(FLAGS.source_audio)
+
     h264_240p_transcode_task=VideoTranscodeTask(
       self._source_video, 
       transcoded_video,
       [
         ffmpeg_command.h264_240p_pass_1_cmd_template,
         ffmpeg_command.h264_240p_pass_2_cmd_template,
-      ]
+      ],
+      source_audio
       )
     h264_360p_transcode_task=VideoTranscodeTask(
       self._source_video, 
@@ -88,7 +99,8 @@ class Video():
       [
         ffmpeg_command.h264_360p_pass_1_cmd_template,
         ffmpeg_command.h264_360p_pass_2_cmd_template,
-      ]
+      ],
+      source_audio
       )
     h264_720p_transcode_task=VideoTranscodeTask(
       self._source_video, 
@@ -96,7 +108,8 @@ class Video():
       [
         ffmpeg_command.h264_720p_pass_1_cmd_template,
         ffmpeg_command.h264_720p_pass_2_cmd_template,
-      ]
+      ],
+      source_audio
       )
     generate_thumbnail_task=VideoTranscodeTask(
       self._source_video, 
@@ -111,7 +124,8 @@ class Video():
       [
       ffmpeg_command.vp9_360p_pass_1_cmd_template,
       ffmpeg_command.vp9_360p_pass_2_cmd_template,
-      ]
+      ],
+      source_audio
       )
 
     if vp9_360p_transcode_task.Run() == False:
