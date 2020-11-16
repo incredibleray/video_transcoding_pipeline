@@ -39,15 +39,6 @@
     ]
   },
   {
-    "title": "149) Do not slander monks and nuns - The 6th Patriarch Sutra - 10/11/2020",
-    "chinese_title": "六祖坛经—-不要诋毁僧众",
-    "hash": "",
-    "path": "MTQ5KSBEbyBub3Qgc2xhbmRlciBtb25rcyBhbmQgbnVucyAtIFRoZSA2dGggUGF0cmlhcmNoIFN1dHJhIC0gMTAvMTEvMjAyMAo=",
-    "related_videos": [
-      "MTQwKSBUaGUgNnRoIFBhdHJpYXJjaCBTdXRyYSAtIDA4XzA5XzIwMjA="
-    ]
-  },
-  {
     "title": "34) Dharma Talk - 10/18/2020",
     "chinese_title": "永化法师讲法-2020年10月18日",
     "hash": "",
@@ -67,16 +58,8 @@
     "hash": "",
     "path": "MDEpIE9wZW5pbmcgTGVjdHVyZSAtIEF2YXRhbXNha2EgU3V0cmEgLSAxMF8zMV8yMDIw",
     "related_videos": [
-      "MDIpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzA3XzIwMjA="
-    ]
-  },
-  {
-    "title": "140) The 6th Patriarch Sutra - 08_09_2020",
-    "chinese_title": "六祖坛经-2020年8月9日",
-    "hash": "",
-    "path": "MTQwKSBUaGUgNnRoIFBhdHJpYXJjaCBTdXRyYSAtIDA4XzA5XzIwMjA=",
-    "related_videos": [
-      "MTQ5KSBEbyBub3Qgc2xhbmRlciBtb25rcyBhbmQgbnVucyAtIFRoZSA2dGggUGF0cmlhcmNoIFN1dHJhIC0gMTAvMTEvMjAyMAo="
+      "MDIpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzA3XzIwMjA=",
+      "MDMpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzE0XzIwMjA="
     ]
   },
   {
@@ -85,7 +68,23 @@
     "hash": "",
     "path": "MDIpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzA3XzIwMjA=",
     "related_videos": [
-      "MDEpIE9wZW5pbmcgTGVjdHVyZSAtIEF2YXRhbXNha2EgU3V0cmEgLSAxMF8zMV8yMDIw"
+      "MDEpIE9wZW5pbmcgTGVjdHVyZSAtIEF2YXRhbXNha2EgU3V0cmEgLSAxMF8zMV8yMDIw",
+      "MDMpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzE0XzIwMjA="
+    ]
+  },
+  {
+    "title": "03) Avatamsaka Sutra Prologue w_ Commentary - 11_14_2020",
+    "chinese_title": "华严经 第三讲 2020年11月14日",
+    "hash": "",
+    "path": "MDMpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzE0XzIwMjA=",
+    "related_videos": [
+      "MDEpIE9wZW5pbmcgTGVjdHVyZSAtIEF2YXRhbXNha2EgU3V0cmEgLSAxMF8zMV8yMDIw",
+      "MDIpIEF2YXRhbXNha2EgU3V0cmEgUHJvbG9ndWUgd18gQ29tbWVudGFyeSAtIDExXzA3XzIwMjA="
+    ],
+    "h264_streams": [
+      "240p",
+      "360p",
+      "720p"
     ]
   }
 ]

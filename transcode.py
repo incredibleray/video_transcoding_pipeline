@@ -26,7 +26,7 @@ def main(argv):
     video=Video(source_video)
     if video.Transcode():
       manifest_entry={
-        'title': video._source_video,
+        'title': video._source_video_name,
         'chinese_title': '',
         'hash': '',
         'path': video._transcoded_video,

@@ -69,7 +69,8 @@ class Video():
     logging.debug(
       'cleaned source video name is: %s', 
       source_video_name)
-
+    self._source_video_name=source_video_name
+    
     if FLAGS.keep_source_video_filename:
       transcoded_video=source_video_name
     else:
