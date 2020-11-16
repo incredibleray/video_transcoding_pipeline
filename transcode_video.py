@@ -140,7 +140,7 @@ class Video():
     if h264_720p_transcode_task.Run() == False:
       return False
 
-    if vp9_360p_transcode_task.Run() == False:
-      return False
+    # if vp9_360p_transcode_task.Run() == False:
+    #   return False
 
     return True
