@@ -74,7 +74,7 @@ class Video():
     if FLAGS.keep_source_video_filename:
       transcoded_video=source_video_name
     else:
-      transcoded_video=base64.b64encode(source_video_name.encode('ascii')).decode('ascii')
+      transcoded_video=base64.b64encode(source_video_name.encode('utf-8')).decode('ascii')
 
     self._transcoded_video=transcoded_video
     logging.debug(
