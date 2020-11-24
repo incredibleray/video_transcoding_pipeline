@@ -60,11 +60,8 @@ class Video():
 
     source_video_name=self._source_video
     if FLAGS.remove_youtube_dl_filename_suffix:
-      suffix_pattern = re.compile('\d\d_\d\d_\d+(-[\w\d-]+)')
-      suffix_string=suffix_pattern.findall(source_video_name)[0]
-      
-      youtube_dl_filename_suffix_start_index=source_video_name.rfind(suffix_string)
-      source_video_name=source_video_name[:youtube_dl_filename_suffix_start_index]
+      suffix_pattern = re.compile('(-[\w\d-]+)$')
+      source_video_name=suffix_pattern.sub('', source_video_name)
     
     logging.debug(
       'cleaned source video name is: %s', 
