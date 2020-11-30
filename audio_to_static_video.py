@@ -19,7 +19,8 @@ class StaticVideo():
 
     self._source_video_name=self._source_audio  
     self._static_video_with_audio=self._source_audio
-
+    self._transcoded_video=self._static_video_with_audio
+    
     logging.debug(
       'transcoded video is: %s', 
       self._static_video_with_audio)

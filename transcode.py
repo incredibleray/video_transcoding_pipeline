@@ -55,7 +55,7 @@ def main(argv):
     for dir_entry in os.scandir('./src_video'):
       if dir_entry.is_file():
         file_name, _=os.path.splitext(dir_entry.name)
-        av_files+=file_name
+        av_files.append(file_name)
   
   if FLAGS.source_video is not None:
     av_files=FLAGS.source_video
