@@ -87,3 +87,8 @@ truncating video:
 ```
 ffmpeg -i big_buck_bunny.mp4 -t 00:03:44 -c copy debug_video.mp4
 ```
+
+# make a static picture video from audio file
+```
+ffmpeg -y -f lavfi -i color=size=320x240:rate=1:color=black -i src_video/Symptom-\ Stress-\ Part\ 2-\ 20\ Min-\ Day\ 10.mp3 -vf "drawtext=fontfile=/System/Library/Fonts/NewYork.ttf: text='Stress Relief Part 2 Day 10': fontcolor=white: fontsize=24: x=(w-text_w)/2: y=(h-text_h)/2" -c:v libx264 -preset fast -crf 18 -c:a aac -b:a 128k -shortest -pix_fmt yuv420p -movflags +faststart transcoded_video/output.mp4
+```

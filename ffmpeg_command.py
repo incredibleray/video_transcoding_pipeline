@@ -50,3 +50,7 @@ h264_720p_pass_1_cmd_template='''
 h264_720p_pass_2_cmd_template='''
   ffmpeg -y -i "src_video/{source_video}.mp4" {source_audio} -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads {threads} -preset veryslow -crf 34 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.720p.mp4"
   '''
+
+h264_generate_static_video_from_audio_cmd_template='''
+ffmpeg -y -f lavfi -i color=size=320x240:rate=1:color=black -i "src_video/{source_video}.mp3" -vf "drawtext=fontfile=/System/Library/Fonts/NewYork.ttf: text='{source_video}': fontcolor=white: fontsize=24: x=(w-text_w)/2: y=(h-text_h)/2" -c:v libx264 -preset fast -crf 18 -c:a aac -b:a 128k -shortest -pix_fmt yuv420p -movflags +faststart transcoded_video/{transcoded_video}.mp4
+'''
