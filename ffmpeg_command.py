@@ -1,5 +1,5 @@
 generate_thumbnail_cmd_template='''
-  ffmpeg -y -i "src_video/{source_video}.mp4"  -ss 00:06:00 -vframes 1 "transcoded_video/{transcoded_video}.png"
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=-1:240 -ss 00:06:00 -vframes 1 "transcoded_video/{transcoded_video}.png"
   '''
 
 h264_240p_pass_1_cmd_template='''
