@@ -92,3 +92,9 @@ ffmpeg -i big_buck_bunny.mp4 -t 00:03:44 -c copy debug_video.mp4
 ```
 ffmpeg -y -f lavfi -i color=size=320x240:rate=1:color=black -i src_video/Symptom-\ Stress-\ Part\ 2-\ 20\ Min-\ Day\ 10.mp3 -vf "drawtext=fontfile=/System/Library/Fonts/NewYork.ttf: text='Stress Relief Part 2 Day 10': fontcolor=white: fontsize=24: x=(w-text_w)/2: y=(h-text_h)/2" -c:v libx264 -preset fast -crf 18 -c:a aac -b:a 128k -shortest -pix_fmt yuv420p -movflags +faststart transcoded_video/output.mp4
 ```
+
+
+# replace audio track in video
+```
+ffmpeg -i src_video.mp4 -i src_audio.m4a -map 0:v -map 1:a -c copy output.mp4
+```
