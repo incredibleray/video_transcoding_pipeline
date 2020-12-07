@@ -124,5 +124,50 @@
       "360p",
       "720p"
     ]
+  },
+  {
+    "title": "01) The Pureland Dharma Door - Fo Qi - chinese_audio_track - 11_28_2020",
+    "chinese_title": "净土法门-佛七开示-2020年11月28日-中文译音",
+    "hash": "",
+    "path": "MDEpIFRoZSBQdXJlbGFuZCBEaGFybWEgRG9vciAtIEZvIFFpIC0gY2hpbmVzZV9hdWRpb190cmFjayAtIDExXzI4XzIwMjA=",
+    "related_videos": [],
+    "h264_streams": [
+      "240p",
+      "360p",
+      "720p"
+    ],
+    "tags": [
+      "中文译音"
+    ]
+  },
+  {
+    "title": "02) Fo Qi - chinese_audio_track - 11_29_2020",
+    "chinese_title": "佛七开示-2020年11月29日-中文译音",
+    "hash": "",
+    "path": "MDIpIEZvIFFpIC0gY2hpbmVzZV9hdWRpb190cmFjayAtIDExXzI5XzIwMjA=",
+    "related_videos": [],
+    "h264_streams": [
+      "240p",
+      "360p",
+      "720p"
+    ],
+    "tags": [
+      "中文译音"
+    ]
+  },
+  {
+    "title": "03) Fo Qi - chinese_audio_track - 11_30_2020",
+    "chinese_title": "佛七开示-2020年11月30日-中文译音",
+    "hash": "",
+    "path": "MDMpIEZvIFFpIC0gY2hpbmVzZV9hdWRpb190cmFjayAtIDExXzMwXzIwMjA=",
+    "related_videos": [],
+    "h264_streams": [
+      "240p",
+      "360p",
+      "720p"
+    ],
+    "tags": [
+      "中文译音"
+    ]
   }
 ]
