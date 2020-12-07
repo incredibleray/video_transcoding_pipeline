@@ -105,5 +105,24 @@
       "240p",
       "360p"
     ]
+  },
+  {
+    "title": "07) Vow 19 - Fo Qi - 12_04_2020",
+    "chinese_title": "大回向-佛七开示-2020年12月4日",
+    "hash": "",
+    "path": "MDcpIFZvdyAxOSAtIEZvIFFpIC0gMTJfMDRfMjAyMA==",
+    "related_videos": [
+      "MDEpIFRoZSBQdXJlbGFuZCBEaGFybWEgRG9vciAtIEZvIFFpIC0gMTFfMjhfMjAyMA==",
+      "MDIpIEZvIFFpIC0gMTFfMjlfMjAyMA==",
+      "MDMpIEZvIFFpIC0gMTFfMzBfMjAyMA==",
+      "MDQpIFRoZSBHcmVhdCBUcmFuc2ZlcmVuY2UgLSBGbyBRaSAtIDEyXzAxXzIwMjA=",
+      "MDUpIFRoZSBHcmVhdCBUcmFuc2ZlcmVuY2UgLSBGbyBRaSAtIDEyXzAyXzIwMjA=",
+      "MDYpIFRoZSBHcmVhdCBUcmFuc2ZlcmVuY2UgLSBGbyBRaSAtIDEyXzAzXzIwMjA="
+    ],
+    "h264_streams": [
+      "240p",
+      "360p",
+      "720p"
+    ]
   }
 ]
