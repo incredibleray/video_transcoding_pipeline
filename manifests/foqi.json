@@ -15,7 +15,8 @@
       "240p",
       "360p",
       "720p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "02) Fo Qi - 11_29_2020",
@@ -33,7 +34,8 @@
       "240p",
       "360p",
       "720p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "03) Fo Qi - 11_30_2020",
@@ -51,7 +53,8 @@
       "240p",
       "360p",
       "720p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "04) The Great Transference - Fo Qi - 12_01_2020",
@@ -69,7 +72,8 @@
       "240p",
       "360p",
       "720p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "05) The Great Transference - Fo Qi - 12_02_2020",
@@ -87,7 +91,8 @@
       "240p",
       "360p",
       "720p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "06) The Great Transference - Fo Qi - 12_03_2020",
@@ -104,7 +109,8 @@
     "h264_streams": [
       "240p",
       "360p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "07) Vow 19 - Fo Qi - 12_04_2020",
@@ -123,7 +129,8 @@
       "240p",
       "360p",
       "720p"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "01) The Pureland Dharma Door - Fo Qi - chinese_audio_track - 11_28_2020",
@@ -138,7 +145,8 @@
     ],
     "tags": [
       "中文译音"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "02) Fo Qi - chinese_audio_track - 11_29_2020",
@@ -153,7 +161,8 @@
     ],
     "tags": [
       "中文译音"
-    ]
+    ],
+    "playlist": "foqi"
   },
   {
     "title": "03) Fo Qi - chinese_audio_track - 11_30_2020",
@@ -168,6 +177,7 @@
     ],
     "tags": [
       "中文译音"
-    ]
+    ],
+    "playlist": "foqi"
   }
 ]

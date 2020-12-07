@@ -40,7 +40,9 @@ def convert_audio_to_static_videos(source_audios):
         'hash': '',
         'path': video._transcoded_video,
         'related_videos': [],
-        'h264_streams':['240p', '360p', '720p']
+        'h264_streams':['240p', '360p', '720p'],
+        "tags": [],
+    "playlist": "chan_meditation",
         }
       manifest.append(manifest_entry)
 
