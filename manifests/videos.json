@@ -9,10 +9,11 @@
       "MzApIFRoZSBTdXBlcmlvcml0eSBvZiBObyBGaWdodGluZyAtIENoYW4gUWkgLSAwMS8yNC8yMDE4Cg=="
     ],
     "tags": [
-      "英文音轨",
+      "英文原声",
       "中文字幕"
     ],
-    "playlist": "six_great_principles"
+    "playlist": "six_great_principles",
+    "date":"2018-01-23"
   },
   {
     "title": "33) No Greed, Making Offerings - Chan Qi- 01/27/2018",
@@ -23,7 +24,8 @@
       "MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg==",
       "MzApIFRoZSBTdXBlcmlvcml0eSBvZiBObyBGaWdodGluZyAtIENoYW4gUWkgLSAwMS8yNC8yMDE4Cg=="
     ],
-    "playlist": "six_great_principles"
+    "playlist": "six_great_principles",
+    "date":"2018-01-27"
   },
   {
     "title": "30) The Superiority of No Fighting - Chan Qi - 01/24/2018",
@@ -34,7 +36,8 @@
       "MzMpIE5vIEdyZWVkLCBNYWtpbmcgT2ZmZXJpbmdzIC0gQ2hhbiBRaSAtIDAxLzI3LzIwMTgK",
       "MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg=="
     ],
-    "playlist": "six_great_principles"
+    "playlist": "six_great_principles",
+    "date":"2018-01-24"
   },
   {
     "title": "34) 6 Principles: No Seeking - Chan Qi - 01/28/2018",
@@ -44,14 +47,16 @@
     "related_videos": [
       "MjkpIE5vIEZpZ2h0aW5nLCBCZSBhIFN1cGVyaW9yIFBlcnNvbiAtIENoYW4gUWkgLSAwMS8yMy8yMDE4Cg=="
     ],
-    "playlist": "six_great_principles"
+    "playlist": "six_great_principles",
+    "date":"2018-01-28"
   },
   {
     "title": "34) Dharma Talk - 10/18/2020",
     "chinese_title": "永化法师讲法-2020年10月18日",
     "hash": "",
     "path": "MzQpIERoYXJtYSBUYWxrIC0gMTAvMTgvMjAyMAo=",
-    "related_videos": []
+    "related_videos": [],
+    "date":"2020-10-18"
   },
   {
     "title": "Tuesday Chan Meditation Beginner Class - Chinese - 09/08/2020 (OBS View)",
@@ -62,10 +67,11 @@
       "U3RyZXRjaGluZyBFeGNlcmNpc2VzIGZvciBGdWxsLUxvdHVzIFBvc3R1cmUgXyBDaGFuIE1lZGl0YXRpb24="
     ],
     "tags": [
-      "中英文音轨",
-      "中文翻译"
+      "英文原声",
+      "中文译音"
     ],
-    "playlist": "chan_meditation"
+    "playlist": "chan_meditation",
+    "date":"2020-09-08"
   },
   {
     "title": "Stretching Excercises for Full-Lotus Posture _ Chan Meditation",
@@ -80,6 +86,7 @@
       "360p",
       "720p"
     ],
-    "playlist": "chan_meditation"
+    "playlist": "chan_meditation",
+    "date":"2020-11-23"
   }
 ]
