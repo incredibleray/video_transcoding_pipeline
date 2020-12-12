@@ -3,6 +3,7 @@ import json
 import os
 from transcode_video import Video
 from audio_to_static_video import StaticVideo
+from datetime import date
 
 FLAGS = flags.FLAGS
 
@@ -43,6 +44,7 @@ def convert_audio_to_static_videos(source_audios):
         'h264_streams':['240p', '360p', '720p'],
         "tags": [],
     "playlist": "chan_meditation",
+    "date": date.today().isoformat(),
         }
       manifest.append(manifest_entry)
 
