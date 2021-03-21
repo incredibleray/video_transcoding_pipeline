@@ -98,3 +98,43 @@ ffmpeg -y -f lavfi -i color=size=320x240:rate=1:color=black -i src_video/Symptom
 ```
 ffmpeg -i src_video.mp4 -i src_audio.m4a -map 0:v -map 1:a -c copy output.mp4
 ```
+
+# extract audio from video
+```
+ffmpeg -i .mp4 -vn -c:a alac output.m4a
+
+```
+
+```
+ffmpeg -i src_video/.mp4 -ss 00:40:03 -vn -c:a aac -b:a 128k transcoded_video/.m4a
+```
+
+## afconvert
+Apple's macOS includes a command-line utility for transcoding audio files that employs this encoder when encoding to AAC.
+
+Usage:
+```
+afconvert [options] <infile> <outfile>
+Options:
+
+-f --file <string>
+File format. Several; use 'm4af' for '.m4a' file or 'adts' for raw '.aac' file.
+-d --data <string>
+Data format. Several; use 'aac'.
+-b --bitrate <n>
+Bitrate in bits per second.
+-s --strategy <0,1,2>
+0 for CBR, 1 for ABR, 2 for VBR.
+-q --quality <0-127>
+Speed/quality trade-off. Internally rounded to a value of either 32, 64, or 96.
+```
+
+# silent audio
+```
+ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -t 05:00:00 -vn -c:a alac transcoded_video/5hr_silence.m4a
+```
+
+# concat audio
+```
+ffmpeg -f concat -i concat.txt -c copy 5hr_sleep.m4a
+```
