@@ -6,6 +6,11 @@ __pycache__/
 # virtualenv
 venv/
 
+# package
+build/
+dist/
+*.egg-info
+
 *.log
 *.temp
 *.mbtree

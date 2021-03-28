@@ -125,18 +125,27 @@ class Video():
       ],
       source_audio
       )
+    extract_audio_task=VideoTranscodeTask(
+      self._source_video, 
+      transcoded_video,
+      [
+      ffmpeg_command.extract_soundtrack_template,
+      
+      ],
+      )
+    
+    extract_audio_task.Run()
+    # if generate_thumbnail_task.Run() == False:
+    #   return False
 
-    if generate_thumbnail_task.Run() == False:
-      return False
+    # if h264_240p_transcode_task.Run() == False:
+    #   return False
 
-    if h264_240p_transcode_task.Run() == False:
-      return False
+    # if h264_360p_transcode_task.Run() == False:
+    #   return False
 
-    if h264_360p_transcode_task.Run() == False:
-      return False
-
-    if h264_720p_transcode_task.Run() == False:
-      return False
+    # if h264_720p_transcode_task.Run() == False:
+    #   return False
 
     # if vp9_360p_transcode_task.Run() == False:
     #   return False

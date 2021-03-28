@@ -1,3 +1,8 @@
+extract_soundtrack_template='''
+  ffmpeg -i "src_video/{source_video}.mp4" -vn -c:a aac -b:a 128k "transcoded_video/{transcoded_video}.m4a"
+  '''
+
+
 generate_thumbnail_cmd_template='''
   ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=-1:240 -ss 00:06:00 -vframes 1 "transcoded_video/{transcoded_video}.png"
   '''
