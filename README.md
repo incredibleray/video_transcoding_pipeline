@@ -136,5 +136,5 @@ ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -t 05:00:00 
 
 # concat audio
 ```
-ffmpeg -f concat -i concat.txt -c copy 5hr_sleep.m4a
+ffmpeg -f concat -safe 0 -i concat.txt -c copy 5hr_sleep.m4a
 ```
