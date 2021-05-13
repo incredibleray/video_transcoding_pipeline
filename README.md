@@ -109,24 +109,10 @@ ffmpeg -i .mp4 -vn -c:a alac output.m4a
 ffmpeg -i src_video/.mp4 -ss 00:40:03 -vn -c:a aac -b:a 128k transcoded_video/.m4a
 ```
 
-## afconvert
-Apple's macOS includes a command-line utility for transcoding audio files that employs this encoder when encoding to AAC.
+[ffmpeg mp3 encoding](https://trac.ffmpeg.org/wiki/Encode/MP3)
 
-Usage:
 ```
-afconvert [options] <infile> <outfile>
-Options:
-
--f --file <string>
-File format. Several; use 'm4af' for '.m4a' file or 'adts' for raw '.aac' file.
--d --data <string>
-Data format. Several; use 'aac'.
--b --bitrate <n>
-Bitrate in bits per second.
--s --strategy <0,1,2>
-0 for CBR, 1 for ABR, 2 for VBR.
--q --quality <0-127>
-Speed/quality trade-off. Internally rounded to a value of either 32, 64, or 96.
+ffmpeg -i src_video/.mp4 -ss 00:40:03 -vn -c:a libmp3lame -q:a 4 transcoded_video/.mp3
 ```
 
 # silent audio

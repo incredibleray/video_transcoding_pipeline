@@ -1,5 +1,5 @@
 extract_soundtrack_template='''
-  ffmpeg -i "src_video/{source_video}.mp4" -vn -c:a aac -b:a 128k "transcoded_video/{transcoded_video}.m4a"
+  ffmpeg -y -i "src_video/{source_video}.mp4" -vn -c:a libmp3lame -q:a 6 "transcoded_video/{transcoded_video}.mp3"
   '''
 
 
