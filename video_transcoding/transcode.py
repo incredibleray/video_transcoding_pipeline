@@ -57,7 +57,7 @@ def main(argv):
   av_files=[]
   if FLAGS.scan_dir_for_source_av_files:
     for dir_entry in os.scandir('./src_video'):
-      if dir_entry.is_file() and dir_entry.name.endswith('.m4a')==True:
+      if dir_entry.is_file() and dir_entry.name.endswith('.mp4')==True:
         file_name, _=os.path.splitext(dir_entry.name)
         av_files.append(file_name)
   

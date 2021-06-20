@@ -80,7 +80,7 @@ class Video():
 
     source_audio=''
     if FLAGS.source_audio is not None:
-      source_audio='-i "src_video/{}.m4a"'.format(FLAGS.source_audio)
+      source_audio='-i "src_video/{}.mp4"'.format(FLAGS.source_audio)
 
     h264_240p_transcode_task=VideoTranscodeTask(
       self._source_video, 
