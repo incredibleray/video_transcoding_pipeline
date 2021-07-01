@@ -56,8 +56,14 @@ def main(argv):
 
   av_files=[]
   if FLAGS.scan_dir_for_source_av_files:
+    if FLAGS.operation == 'transcode_videos':
+      av_files_extension='.mp4'
+  
+    if FLAGS.operation =='convert_audio_to_static_videos':
+      av_files_extension='.mp3'
+
     for dir_entry in os.scandir('./src_video'):
-      if dir_entry.is_file() and dir_entry.name.endswith('.mp3')==True:
+      if dir_entry.is_file() and dir_entry.name.endswith(av_files_extension)==True:
         file_name, _=os.path.splitext(dir_entry.name)
         av_files.append(file_name)
   
