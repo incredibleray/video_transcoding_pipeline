@@ -57,5 +57,5 @@ h264_720p_pass_2_cmd_template='''
   '''
 
 h264_generate_static_video_from_audio_cmd_template='''
-ffmpeg -y -f lavfi -i color=size=1280x720:rate=25:color=black -i 'src_video/cover.png' -i 'src_video/{source_video}.mp3' -filter_complex "[1:v]scale=1280:720 [ovrl], [0:v][ovrl]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2, drawtext=fontfile=/System/Library/Fonts/NewYork.ttf: text='{source_video}': fontcolor=black: fontsize=24: x=0.90*(w-text_w): y=0.68*(h-text_h)" -c:v libx264 -preset slow -crf 18 -c:a aac -b:a 128k -pix_fmt yuv420p -movflags +faststart -shortest -threads 16 'transcoded_video/{transcoded_video}.mp4'
+ffmpeg -y -f lavfi -i color=size=1280x720:rate=25:color=black -i 'src_video/cover.png' -i 'src_video/{source_video}.mp3' -filter_complex "[1:v]scale=1280:720 [ovrl], [0:v][ovrl]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2, drawtext=fontfile=/System/Library/Fonts/NewYork.ttf: text='{source_video}': fontcolor=black: fontsize=24: x=0.90*(w-text_w): y=0.68*(h-text_h)" -c:v libx264 -preset slow -crf 18 -c:a aac -b:a 128k -pix_fmt yuv420p -movflags +faststart -shortest 'transcoded_video/{transcoded_video}.mp4'
 '''
