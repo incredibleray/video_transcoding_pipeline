@@ -129,3 +129,16 @@ ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -t 05:00:00 
 ```
 ffmpeg -f concat -safe 0 -i concat.txt -c copy 5hr_sleep.m4a
 ```
+
+# dharma glimpse
+```
+ffmpeg -y -i src_video/dharma.mp4  -ss 00:46:43 -t 00:00:39 -c copy transcoded_video/dharma_glimpse.mp4
+
+ffmpeg -y -i transcoded_video/dharma_glimpse.mp4 -i bodhilight.png -filter_complex "overlay=x=(main_w-overlay_w):y=(main_h-overlay_h)" transcoded_video/dharma_glimpse_watermark.mp4
+
+ffmpeg -y -i src_video/dharma.mp4 -vf scale=-1:240 -ss 00:46:43  -vframes 1 "transcoded_video/dharma.png"
+
+ffmpeg -i a.jpg -i b.jpg -filter_complex hstack output.jpg
+
+47:22
+```

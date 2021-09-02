@@ -3,11 +3,12 @@ import json
 import os
 from transcode_video import Video
 from audio_to_static_video import StaticVideo
+from text_find_replace import TextFindReplace
 from datetime import date
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_enum('operation', 'transcode_videos', ['transcode_videos', 'convert_audio_to_static_videos'], '')
+flags.DEFINE_enum('operation', 'transcode_videos', ['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace'], '')
 flags.DEFINE_boolean('scan_dir_for_source_av_files', False, '')
 flags.DEFINE_multi_string("source_video", None, "")
 flags.DEFINE_boolean('debug_logs', False, '')
@@ -50,6 +51,13 @@ def convert_audio_to_static_videos(source_audios):
 
   return manifest
 
+def find_replace_texts(input_texts):
+  for input_text in input_texts:
+    video=TextFindReplace(input_text)
+    video.Transcode()
+
+  return []
+  
 def main(argv):
   if FLAGS.debug_logs:
     logging.set_verbosity(logging.DEBUG)
@@ -61,6 +69,9 @@ def main(argv):
   
     if FLAGS.operation =='convert_audio_to_static_videos':
       av_files_extension='.mp3'
+
+    if FLAGS.operation =='text_find_replace':
+      av_files_extension='.txt'
 
     for dir_entry in os.scandir('./src_video'):
       if dir_entry.is_file() and dir_entry.name.endswith(av_files_extension)==True:
@@ -79,6 +90,9 @@ def main(argv):
   
   if FLAGS.operation =='convert_audio_to_static_videos':
     manifest=convert_audio_to_static_videos(av_files)
+
+  if FLAGS.operation =='text_find_replace':
+    manifest=find_replace_texts(av_files)
 
   if FLAGS.write_to_manifest:
     manifest_file=open(FLAGS.write_to_manifest, 'w', encoding='utf-8')

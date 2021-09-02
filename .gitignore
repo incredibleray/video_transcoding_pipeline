@@ -22,3 +22,6 @@ debug.json
 *.ogv
 *.m4a
 *.mp3
+
+*.txt
+*.sed

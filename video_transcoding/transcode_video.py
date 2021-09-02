@@ -133,8 +133,9 @@ class Video():
       
       ],
       )
-    
+      
     extract_audio_task.Run()
+
     # if generate_thumbnail_task.Run() == False:
     #   return False
 
