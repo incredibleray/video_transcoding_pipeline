@@ -36,7 +36,19 @@ class StaticVideo():
       source_audio
       )
 
-    if h264_generate_static_video_from_audio_task.Run() == False:
-      return False
+    mp3_bitrate_compression_and_volume_tuning_task=VideoTranscodeTask(
+      self._source_audio, 
+      self._transcoded_video,
+      [
+        ffmpeg_command.mp3_bitrate_compression_and_volume_tuning_template
+      ],
+      source_audio
+      )
 
+    # if h264_generate_static_video_from_audio_task.Run() == False:
+    #   return False
+
+    if mp3_bitrate_compression_and_volume_tuning_task.Run() == False:
+      return False
+      
     return True
