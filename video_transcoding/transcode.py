@@ -69,6 +69,7 @@ def main(argv):
   
     if FLAGS.operation =='convert_audio_to_static_videos':
       av_files_extension='.mp3'
+      av_files_extension='.m4a'
 
     if FLAGS.operation =='text_find_replace':
       av_files_extension='.txt'

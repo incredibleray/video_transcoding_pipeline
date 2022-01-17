@@ -61,5 +61,9 @@ ffmpeg -y -f lavfi -i color=size=1280x720:rate=25:color=black -i 'src_video/cove
 '''
 
 mp3_bitrate_compression_and_volume_tuning_template='''
-  ffmpeg -y -i 'src_video/{source_video}.mp3' -ac 1 -filter:a "volume=0.25" -c:a libmp3lame -q:a 3 -ar 11025 'transcoded_video/{transcoded_video}.mp3' 
+  ffmpeg -y -i 'src_video/{source_video}.mp3' -ac 1 -filter:a "volume=-20dB" -c:a libmp3lame -q:a 3 -ar 11025 'transcoded_video/{transcoded_video}.mp3' 
 '''
+
+mp3_bitrate_compression_template='''
+  ffmpeg -y -i "src_video/{source_video}.m4a" -c:a libmp3lame -q:a 6 "transcoded_video/{transcoded_video}.mp3"
+  '''

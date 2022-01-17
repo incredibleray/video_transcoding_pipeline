@@ -9,7 +9,7 @@ import ffmpeg_command
 FLAGS = flags.FLAGS
 
 flags.DEFINE_boolean('remove_youtube_dl_filename_suffix', False, '')
-flags.DEFINE_boolean('keep_source_video_filename', False, '')
+flags.DEFINE_boolean('keep_source_video_filename', True, '')
 flags.DEFINE_string('source_audio', None, '')
 flags.DEFINE_integer('threads', 16, '')
 
