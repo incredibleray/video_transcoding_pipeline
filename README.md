@@ -142,3 +142,8 @@ ffmpeg -i a.jpg -i b.jpg -filter_complex hstack output.jpg
 
 47:22
 ```
+
+# translation video
+```
+ffmpeg -y -i src_video/eng.mp4 -i src_video/chn.mp3 -filter_complex "[0:a]volume=0.2[a];[1:0]volume=1.0[b];[a][b]amix=inputs=2:duration=first" transcoded_video/chn.mp4
+```
