@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Test Mahayana Chan Podcast</title>
+    <itunes:owner>
+        <itunes:email>incredibleray@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>Unspecified</itunes:author>
+    <description>Test podcast please ignore.</description>
+    <!-- <itunes:image href="https://www.example.com/podcasts/dafnas-zebras/img/dafna-zebra-pod-logo.jpg"/> -->
+    <language>en-us</language>
+    <!-- <link>https://www.chanpureland.org</link> -->
+    <item>
+      <title>Friday evening Chan class for Asia</title>
+      <description>Friday evening Chan class for Asia</description>
+      <pubDate>Fri, 29 July 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://www.example.com/podcasts/dafnas-zebras/audio/toptenmyths.mp3"
+                 type="audio/mpeg" length="34216300"/>
+      <itunes:duration>30:00</itunes:duration>
+      <guid isPermaLink="false">20220729chanasia</guid>
+    </item>
+    <item>
+      <title>Saturday morning Chan Class</title>
+      <description>Saturday morning Chan Class</description>
+      <pubDate>Sat, 30 July 2022 12:00:00 GMT</pubDate>
+      <enclosure url="https://www.example.com/podcasts/dafnas-zebras/audio/cleanstripes.mp3"
+                 type="audio/mpeg" length="26004388"/>
+      <itunes:duration>22:48</itunes:duration>
+      <guid>20220730chanus</guid>
+    </item>
+  </channel>
+</rss>
