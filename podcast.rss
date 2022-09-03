@@ -8,26 +8,42 @@
     </itunes:owner>
     <itunes:author>Unspecified</itunes:author>
     <description>Test podcast please ignore.</description>
-    <!-- <itunes:image href="https://www.example.com/podcasts/dafnas-zebras/img/dafna-zebra-pod-logo.jpg"/> -->
+    <itunes:image href="https://dharmatalks.blob.core.windows.net/podcasts/chan.png"/>
     <language>en-us</language>
-    <!-- <link>https://www.chanpureland.org</link> -->
+    <link>https://www.chanpureland.org</link>
     <item>
-      <title>Friday evening Chan class for Asia</title>
-      <description>Friday evening Chan class for Asia</description>
-      <pubDate>Fri, 29 July 2022 12:00:00 GMT</pubDate>
-      <enclosure url="https://www.example.com/podcasts/dafnas-zebras/audio/toptenmyths.mp3"
+      <title>Six Patriarch Sutra 20220820</title>
+      <description>Six Patriarch Sutra</description>
+      <pubDate>Sat, 20 August 2022</pubDate>
+      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/32) The 6th Patriarch Sutra - 20220820-3bVietOpq3Q.m4a"
                  type="audio/mpeg" length="34216300"/>
-      <itunes:duration>30:00</itunes:duration>
-      <guid isPermaLink="false">20220729chanasia</guid>
+      <itunes:duration>120:00</itunes:duration>
+      <guid isPermaLink="false">20220820sixpatriarchsutra</guid>
     </item>
     <item>
-      <title>Saturday morning Chan Class</title>
-      <description>Saturday morning Chan Class</description>
-      <pubDate>Sat, 30 July 2022 12:00:00 GMT</pubDate>
-      <enclosure url="https://www.example.com/podcasts/dafnas-zebras/audio/cleanstripes.mp3"
-                 type="audio/mpeg" length="26004388"/>
-      <itunes:duration>22:48</itunes:duration>
-      <guid>20220730chanus</guid>
+      <title>Sunday Dharma Talk 20220814</title>
+      <description>Sunday Dharma Talk</description>
+      <pubDate>Sun, 14 August 2022</pubDate>
+      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/DharmaTalk-20220814.mp3" />
+      <itunes:duration>40:00</itunes:duration>
+      <guid isPermaLink="false">20220814purelandharmatalk</guid>
     </item>
+    <item>
+      <title>Chan talk-Song of Enlightenment 20220730</title>
+      <description>Saturday Chan Talk</description>
+      <pubDate>Sat, 30 July 2022</pubDate>
+      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/ChanTalk20220730.m4a" />
+      <itunes:duration>61:50</itunes:duration>
+      <guid isPermaLink="false">20220730chantalk</guid>
+    </item>
+    <item>
+      <title>Chan talk Asia 20220729</title>
+      <description>Friday Asia Chan Talk</description>
+      <pubDate>Fri, 29 July 2022</pubDate>
+      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/ChanTalk20220729.m4a" />
+      <itunes:duration>81:25</itunes:duration>
+      <guid isPermaLink="false">20220729asiachantalk</guid>
+    </item> 
+       
   </channel>
 </rss>
