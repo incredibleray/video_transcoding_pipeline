@@ -8,9 +8,10 @@ from transcode_video import VideoTranscodeTask
 FLAGS = flags.FLAGS
 
 class StaticVideo():
-  def __init__(self, source_audio):
+  def __init__(self, source_audio, coverFile):
     self._source_audio=source_audio
     self._static_video_with_audio=None
+    self.coverFile=coverFile
 
   def Transcode(self):
     logging.debug(
@@ -25,42 +26,21 @@ class StaticVideo():
       'transcoded video is: %s', 
       self._static_video_with_audio)
 
-    source_audio=''
-
     h264_generate_static_video_from_audio_task=VideoTranscodeTask(
       self._source_audio, 
       self._static_video_with_audio,
       [
-        ffmpeg_command.h264_generate_static_video_from_audio_cmd_template
+        '''
+        ffmpeg -y -f lavfi -i color=size=1280x720:rate=25:color=black -i 'src_video/{source_audio}.jpg' -i 'src_video/{source_video}.mp3' -filter_complex "[1:v]scale=1280:720" -c:v libx264 -preset slow -crf 18 -c:a aac -b:a 128k -pix_fmt yuv420p -movflags +faststart -shortest 'transcoded_video/{transcoded_video}.mp4'
+        '''
+        '''
+        ffmpeg -loop 1 -framerate 24 -i src_video/KinhDiaTang_058.jpg -i src_video/Vietnamese_Earth_Store_Sutra_YongHua_090628.mp3  -c:v libx264 -preset medium -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p -movflags +faststart transcoded_video/out.mp4  
+        '''
       ],
-      source_audio
+      self.coverFile
       )
 
-    mp3_bitrate_compression_and_volume_tuning_task=VideoTranscodeTask(
-      self._source_audio, 
-      self._transcoded_video,
-      [
-        ffmpeg_command.mp3_bitrate_compression_and_volume_tuning_template
-      ],
-      source_audio
-      )
-
-    mp3_bitrate_compression_task=VideoTranscodeTask(
-      self._source_audio, 
-      self._transcoded_video,
-      [
-        ffmpeg_command.mp3_bitrate_compression_template
-      ],
-      source_audio
-      )
-    
-    # if h264_generate_static_video_from_audio_task.Run() == False:
-    #   return False
-
-    # if mp3_bitrate_compression_and_volume_tuning_task.Run() == False:
-    #   return False
-      
-    if mp3_bitrate_compression_task.Run() == False:
+    if h264_generate_static_video_from_audio_task.Run() == False:
       return False
-      
+
     return True

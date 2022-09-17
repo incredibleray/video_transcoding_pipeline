@@ -5,11 +5,16 @@ from transcode_video import Video
 from audio_to_static_video import StaticVideo
 from text_find_replace import TextFindReplace
 from datetime import date
+from podcast import Podcast
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_enum('operation', 'transcode_videos', ['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace'], '')
-flags.DEFINE_boolean('scan_dir_for_source_av_files', False, '')
+flags.DEFINE_enum('operation', 
+# 'podcast', 
+'convert_audio_to_static_videos',
+['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace',
+'podcast'], '')
+flags.DEFINE_boolean('scan_dir_for_source_av_files', True, '')
 flags.DEFINE_multi_string("source_video", None, "")
 flags.DEFINE_boolean('debug_logs', False, '')
 flags.DEFINE_string('write_to_manifest', None, '')
@@ -33,8 +38,10 @@ def transcode_videos(source_videos):
 
 def convert_audio_to_static_videos(source_audios):
   manifest=[]
+  i=1
   for source_audio in source_audios:
-    video=StaticVideo(source_audio)
+    coverFile=str.format("KinhDiaTang_{:03d}", i)
+    video=StaticVideo(source_audio, coverFile)
     if video.Transcode():
       manifest_entry={
         'title': video._source_video_name,
@@ -58,6 +65,27 @@ def find_replace_texts(input_texts):
 
   return []
   
+def convert_videos_to_podcast(source_audios):
+  manifest=[]
+  for source_audio in source_audios:
+    video=Podcast(source_audio)
+    if video.Transcode():
+      pass
+    #   manifest_entry={
+    #     'title': video._source_video_name,
+    #     'chinese_title': '',
+    #     'hash': '',
+    #     'path': video._transcoded_video,
+    #     'related_videos': [],
+    #     'h264_streams':['240p', '360p', '720p'],
+    #     "tags": [],
+    # "playlist": "chan_meditation",
+    # "date": date.today().isoformat(),
+    #     }
+      # manifest.append(manifest_entry)
+
+  return manifest
+
 def main(argv):
   if FLAGS.debug_logs:
     logging.set_verbosity(logging.DEBUG)
@@ -69,10 +97,13 @@ def main(argv):
   
     if FLAGS.operation =='convert_audio_to_static_videos':
       av_files_extension='.mp3'
-      av_files_extension='.m4a'
+      # av_files_extension='.m4a'
 
     if FLAGS.operation =='text_find_replace':
       av_files_extension='.txt'
+
+    if FLAGS.operation == 'podcast':
+      av_files_extension='.mp4'
 
     for dir_entry in os.scandir('./src_video'):
       if dir_entry.is_file() and dir_entry.name.endswith(av_files_extension)==True:
@@ -94,6 +125,9 @@ def main(argv):
 
   if FLAGS.operation =='text_find_replace':
     manifest=find_replace_texts(av_files)
+
+  if FLAGS.operation == 'podcast':
+    manifest=convert_videos_to_podcast(av_files)
 
   if FLAGS.write_to_manifest:
     manifest_file=open(FLAGS.write_to_manifest, 'w', encoding='utf-8')
