@@ -30,11 +30,11 @@ class StaticVideo():
       self._source_audio, 
       self._static_video_with_audio,
       [
+        # '''
+        # ffmpeg -y -f lavfi -i color=size=1280x720:rate=25:color=black -i 'src_video/{source_audio}.jpg' -i 'src_video/{source_video}.mp3' -filter_complex "[1:v]scale=1280:720" -c:v libx264 -preset slow -crf 18 -c:a aac -b:a 128k -pix_fmt yuv420p -movflags +faststart -shortest 'transcoded_video/{transcoded_video}.mp4'
+        # '''
         '''
-        ffmpeg -y -f lavfi -i color=size=1280x720:rate=25:color=black -i 'src_video/{source_audio}.jpg' -i 'src_video/{source_video}.mp3' -filter_complex "[1:v]scale=1280:720" -c:v libx264 -preset slow -crf 18 -c:a aac -b:a 128k -pix_fmt yuv420p -movflags +faststart -shortest 'transcoded_video/{transcoded_video}.mp4'
-        '''
-        '''
-        ffmpeg -loop 1 -framerate 24 -i src_video/KinhDiaTang_058.jpg -i src_video/Vietnamese_Earth_Store_Sutra_YongHua_090628.mp3  -c:v libx264 -preset medium -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p -movflags +faststart transcoded_video/out.mp4  
+        ffmpeg -loop 1 -framerate 24 -i 'src_video/{source_audio}.jpg' -i 'src_video/{source_video}.mp3'  -filter_complex "[0:v]scale=1280:720" -c:v libx264 -preset medium -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p -movflags +faststart 'transcoded_video/{transcoded_video}.mp4'  
         '''
       ],
       self.coverFile

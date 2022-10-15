@@ -10,8 +10,7 @@ from podcast import Podcast
 FLAGS = flags.FLAGS
 
 flags.DEFINE_enum('operation', 
-# 'podcast', 
-'convert_audio_to_static_videos',
+'podcast', 
 ['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace',
 'podcast'], '')
 flags.DEFINE_boolean('scan_dir_for_source_av_files', True, '')
