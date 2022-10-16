@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Test Mahayana Chan Podcast</title>
     <itunes:owner>
-        <itunes:email>incredibleray@gmail.com</itunes:email>
+      <itunes:email>incredibleray@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:author>Unspecified</itunes:author>
     <description>Test podcast please ignore.</description>
-    <itunes:image href="https://dharmatalks.blob.core.windows.net/podcasts/chan.png"/>
+    <itunes:image href="https://americanmahayana.blob.core.windows.net/podcast/cover.jpeg" />
     <language>en-us</language>
     <link>https://www.youtube.com/c/MasterYongHua</link>
-    <item>
     <item>
       <title>Sunday Dharma Talk 20220814</title>
       <description>Sunday Dharma Talk</description>
       <pubDate>Sun, 14 August 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/DharmaTalk-20220814.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/DharmaTalk-20220814.mp3" />
       <itunes:duration>40:00</itunes:duration>
       <guid isPermaLink="false">20220814purelandharmatalk</guid>
     </item>
@@ -24,7 +22,7 @@
       <title>Chan talk-Song of Enlightenment 20220730</title>
       <description>Saturday Chan Talk</description>
       <pubDate>Sat, 30 July 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/ChanTalk20220730.m4a" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/ChanTalk20220730.m4a" />
       <itunes:duration>61:50</itunes:duration>
       <guid isPermaLink="false">20220730chantalk</guid>
     </item>
@@ -32,122 +30,135 @@
       <title>Chan talk Asia 20220729</title>
       <description>Friday Asia Chan Talk</description>
       <pubDate>Fri, 29 July 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/ChanTalk20220729.m4a" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/ChanTalk20220729.m4a" />
       <itunes:duration>81:25</itunes:duration>
       <guid isPermaLink="false">20220729asiachantalk</guid>
-    </item> 
-           <item>
+    </item>
+    <item>
       <title>Chan talk Asia 20220902</title>
       <description>Friday Asia Chan Talk</description>
       <pubDate>Fri, 02 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/22) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20220902.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/22) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20220902.mp3" />
       <itunes:duration>62:20</itunes:duration>
       <guid isPermaLink="false">20220902asiachantalk</guid>
     </item>
-           <item>
+    <item>
       <title>Avatamsaka Sutra Prologue 20220902</title>
       <description>Avatamsaka Sutra Prologue</description>
       <pubDate>Fri, 02 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/79) The Avatamsaka Sutra - Prologue - 20220902.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/79) The Avatamsaka Sutra - Prologue - 20220902.mp3" />
       <itunes:duration>94:50</itunes:duration>
       <guid isPermaLink="false">20220902avatamsakasutraprologue</guid>
     </item>
+    <item>
       <title>Chan talk Asia 20220909</title>
       <description>Friday Asia Chan Talk</description>
       <pubDate>Fri, 09 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/23) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20220909.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/23) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20220909.mp3" />
       <itunes:duration>78:21</itunes:duration>
       <guid isPermaLink="false">20220909asiachantalk</guid>
     </item>
-           <item>
+    <item>
       <title>Avatamsaka Sutra Prologue 20220909</title>
       <description>Avatamsaka Sutra Prologue</description>
       <pubDate>Fri, 09 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/80) The Avatamsaka Sutra - Prologue - 20220909.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/80) The Avatamsaka Sutra - Prologue - 20220909.mp3" />
       <itunes:duration>90:35</itunes:duration>
       <guid isPermaLink="false">20220909avatamsakasutraprologue</guid>
     </item>
-          <title>Six Patriarch Sutra 20220827</title>
+    <item>
+      <title>Six Patriarch Sutra 20220827</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 27 August 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/33) The 6th Patriarch Sutra - 20220827.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/33) The 6th Patriarch Sutra - 20220827.mp3" />
       <itunes:duration>131:15</itunes:duration>
       <guid isPermaLink="false">20220827sixpatriarchsutra</guid>
     </item>
-          <title>Six Patriarch Sutra 20220820</title>
+    <item>
+      <title>Six Patriarch Sutra 20220820</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 20 August 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/32) The 6th Patriarch Sutra - 20220820.mp3"/>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/32) The 6th Patriarch Sutra - 20220820.mp3" />
       <itunes:duration>124:40</itunes:duration>
       <guid isPermaLink="false">20220820sixpatriarchsutra</guid>
     </item>
-              <title>Six Patriarch Sutra 20220813</title>
+    <item>
+      <title>Six Patriarch Sutra 20220813</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 13 August 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/31) The 6th Patriarch Sutra - 20220813.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/31) The 6th Patriarch Sutra - 20220813.mp3" />
       <itunes:duration>138:55</itunes:duration>
       <guid isPermaLink="false">20220813sixpatriarchsutra</guid>
     </item>
-          <title>Six Patriarch Sutra 20220806</title>
+    <item>
+      <title>Six Patriarch Sutra 20220806</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 06 August 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/30) The 6th Patriarch Sutra - 20220806.mp3"/>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/30) The 6th Patriarch Sutra - 20220806.mp3" />
       <itunes:duration>128:10</itunes:duration>
       <guid isPermaLink="false">20220806sixpatriarchsutra</guid>
     </item>
-              <title>Six Patriarch Sutra 20220730</title>
+    <item>
+      <title>Six Patriarch Sutra 20220730</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 30 July 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/29) The 6th Patriarch Sutra - 20220730.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/29) The 6th Patriarch Sutra - 20220730.mp3" />
       <itunes:duration>120:05</itunes:duration>
       <guid isPermaLink="false">20220730sixpatriarchsutra</guid>
     </item>
-          <title>Six Patriarch Sutra 20220723</title>
+    <item>
+      <title>Six Patriarch Sutra 20220723</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 23 July 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/28) The 6th Patriarch Sutra - 20220723.mp3"/>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/28) The 6th Patriarch Sutra - 20220723.mp3" />
       <itunes:duration>120:45</itunes:duration>
       <guid isPermaLink="false">20220723sixpatriarchsutra</guid>
     </item>
-              <title>Six Patriarch Sutra 20220716</title>
+    <item>
+      <title>Six Patriarch Sutra 20220716</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 16 July 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/27) The 6th Patriarch Sutra - 20220716.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/27) The 6th Patriarch Sutra - 20220716.mp3" />
       <itunes:duration>119:44</itunes:duration>
       <guid isPermaLink="false">20220716sixpatriarchsutra</guid>
     </item>
-          <title>Six Patriarch Sutra 20220702</title>
+    <item>
+      <title>Six Patriarch Sutra 20220702</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 02 July 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/25) The 6th Patriarch Sutra - 20220702.mp3"/>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/25) The 6th Patriarch Sutra - 20220702.mp3" />
       <itunes:duration>121:20</itunes:duration>
       <guid isPermaLink="false">20220702sixpatriarchsutra</guid>
     </item>
-                  <title>Six Patriarch Sutra 20220625</title>
+    <item>
+      <title>Six Patriarch Sutra 20220625</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 25 June 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/24) The 6th Patriarch Sutra - 20220625.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/24) The 6th Patriarch Sutra - 20220625.mp3" />
       <itunes:duration>123:45</itunes:duration>
       <guid isPermaLink="false">20220625sixpatriarchsutra</guid>
     </item>
-          <title>Six Patriarch Sutra 20220611</title>
+    <item>
+      <title>Six Patriarch Sutra 20220611</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 11 June 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/14) Chan Qi • The 6th Patriarch Sutra (23) - 20220611.mp3"/>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/14) Chan Qi • The 6th Patriarch Sutra (23) - 20220611.mp3" />
       <itunes:duration>123:35</itunes:duration>
       <guid isPermaLink="false">20220611sixpatriarchsutra</guid>
     </item>
-              <title>Six Patriarch Sutra 20220910</title>
+    <item>
+      <title>Six Patriarch Sutra 20220910</title>
       <description>Six Patriarch Sutra</description>
       <pubDate>Sat, 10 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/34) The 6th Patriarch Sutra - 20220910.mp3"/>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/34) The 6th Patriarch Sutra - 20220910.mp3" />
       <itunes:duration>127:35</itunes:duration>
       <guid isPermaLink="false">20220910sixpatriarchsutra</guid>
     </item>
-          <title>Chan talk 20220910</title>
+    <item>
+      <title>Chan talk 20220910</title>
       <description>Saturday Chan Talk</description>
       <pubDate>Sat, 10 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/20) Chan Talk - 20220910.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/20) Chan Talk - 20220910.mp3" />
       <itunes:duration>56:25</itunes:duration>
       <guid isPermaLink="false">20220910chantalk</guid>
     </item>
@@ -155,7 +166,7 @@
       <title>Sunday Dharma Talk 20220911</title>
       <description>Sunday Dharma Talk</description>
       <pubDate>Sun, 11 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/25) Dharma Talk • Pureland - 20220911.mp3" />
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/25) Dharma Talk • Pureland - 20220911.mp3" />
       <itunes:duration>45:10</itunes:duration>
       <guid isPermaLink="false">20220911purelandharmatalk</guid>
     </item>
@@ -163,10 +174,17 @@
       <title>Avatamsaka Sutra Chapter 1 20220911</title>
       <description>Avatamsaka Sutra</description>
       <pubDate>Sun, 11 September 2022</pubDate>
-      <enclosure url="https://dharmatalks.blob.core.windows.net/podcasts/38) The Avatamsaka Sutra - Chapter 01 - 20220911.mp3" />
-      <itunes:duration>123:15</itunes:duration>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/38) The Avatamsaka Sutra - Chapter 01 - 20220911.mp3" />
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">123:15</itunes:duration>
       <guid isPermaLink="false">20220911avatamsakasutra</guid>
     </item>
-
+    <item>
+      <title>Guan Yin Qi @ JMT 관음칠 청주 보산사 - 10_10_2022</title>
+      <description>Guan Yin Qi Lecture</description>
+      <pubDate>Mon, 10 October 2022</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/03) Guan Yin Qi @ JMT 관음칠 청주 보산사 - 10_10_2022.mp3" />
+      <itunes:duration>01:13:55</itunes:duration>
+      <guid isPermaLink="false">20220911avatamsakasutra</guid>
+    </item>
   </channel>
 </rss>
