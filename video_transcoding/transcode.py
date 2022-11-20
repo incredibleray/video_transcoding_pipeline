@@ -54,6 +54,7 @@ def convert_audio_to_static_videos(source_audios):
     "date": date.today().isoformat(),
         }
       manifest.append(manifest_entry)
+      i+=1
 
   return manifest
 
