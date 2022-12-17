@@ -70,19 +70,23 @@ def convert_videos_to_podcast(source_audios):
   for source_audio in source_audios:
     video=Podcast(source_audio)
     if video.Transcode():
-      pass
-    #   manifest_entry={
-    #     'title': video._source_video_name,
-    #     'chinese_title': '',
-    #     'hash': '',
-    #     'path': video._transcoded_video,
-    #     'related_videos': [],
-    #     'h264_streams':['240p', '360p', '720p'],
-    #     "tags": [],
-    # "playlist": "chan_meditation",
-    # "date": date.today().isoformat(),
-    #     }
-      # manifest.append(manifest_entry)
+      manifest_entry={
+        'title': source_audio,
+        "enclosure": "https://americanmahayana.blob.core.windows.net/"+video._storagePath
+      }
+    #   manifest_entry='''<item>
+    #   <itunes:episodeType>full</itunes:episodeType>
+    #   <itunes:season>2022</itunes:season>
+    #   <title>{source_audio}</title>
+    #   <description></description>
+    #   <link></link>
+    #   <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/{video._storagePath}" />
+    #   <guid>{video._transcoded_video}</guid>
+    #   <pubDate>{video._pubDate} 7:20:00 -0700</pubDate>
+    #   <itunes:duration></itunes:duration>
+    #   <itunes:explicit>false</itunes:explicit>
+    # </item>'''
+      manifest.append(manifest_entry)
 
   return manifest
 
@@ -132,6 +136,8 @@ def main(argv):
   if FLAGS.write_to_manifest:
     manifest_file=open(FLAGS.write_to_manifest, 'w', encoding='utf-8')
     json.dump(manifest, manifest_file)
+  else:
+    print(manifest)
 
   
 
