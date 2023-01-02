@@ -10,7 +10,7 @@ from podcast import Podcast
 FLAGS = flags.FLAGS
 
 flags.DEFINE_enum('operation', 
-'podcast', 
+'convert_audio_to_static_videos', 
 ['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace',
 'podcast'], '')
 flags.DEFINE_boolean('scan_dir_for_source_av_files', True, '')
@@ -39,7 +39,7 @@ def convert_audio_to_static_videos(source_audios):
   manifest=[]
   i=1
   for source_audio in source_audios:
-    coverFile=str.format("KinhDiaTang_{:03d}", i)
+    coverFile=str.format("KinhKimCang-{:02d}", i)
     video=StaticVideo(source_audio, coverFile)
     if video.Transcode():
       manifest_entry={

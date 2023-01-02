@@ -1,3 +1,3 @@
 absl-py
 wheel
-youtube-dl
+webvtt-py
