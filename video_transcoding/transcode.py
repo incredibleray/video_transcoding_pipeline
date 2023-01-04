@@ -37,7 +37,7 @@ def transcode_videos(source_videos):
 
 def convert_audio_to_static_videos(source_audios):
   manifest=[]
-  i=1
+  i=45
   for source_audio in source_audios:
     coverFile=str.format("KinhKimCang-{:02d}", i)
     video=StaticVideo(source_audio, coverFile)
@@ -90,6 +90,7 @@ def convert_videos_to_podcast(source_audios):
 
   return manifest
 
+# def 
 def main(argv):
   if FLAGS.debug_logs:
     logging.set_verbosity(logging.DEBUG)

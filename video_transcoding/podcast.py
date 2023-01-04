@@ -7,11 +7,14 @@ import re
 import ffmpeg_command
 from transcode_video import VideoTranscodeTask
 import datetime
+import requests
+import xml.etree.ElementTree as ET
+
 
 FLAGS = flags.FLAGS
 flags.DEFINE_enum('lang', 
 'en', 
-['en', 'cn', ], '')
+['en', 'cn', 'kr', 'vi'], '')
 
 class Podcast():
   def __init__(self, source_video):
@@ -61,6 +64,54 @@ class Podcast():
 
     if podcast.Run():
       self._storagePath=storageDir+"/"+transcoded_video+".mp3"
+      return True
+
+    return False
+
+
+class UpdateRss():
+  def __init__(self, newEpisodes):
+    self._newEpisodes=newEpisodes
+
+  def Transcode(self):
+    baseUrl="https://americanmahayana.blob.core.windows.net/"
+
+    if FLAGS.lang=="en":
+      rssFileName="podcast"
+      storageDir="podcast"
+    elif FLAGS.lang=="cn":
+      rssFileName="podcastCN"
+      storageDir="podcast/CN"
+    else:
+      return False
+
+    url=baseUrl+storageDir+"/"+rssFileName+".rss"
+    rssFileReq = requests.get(url)
+
+    root = ET.fromstring(rssFileReq.content)
+    channelRoot=root[0]
+
+    for e in newEpisodes:
+      newItem = ET.SubElement(channelRoot, 'Item')
+      nameElem=ET.SubElement(newItem, "title")
+      nameElem.text=e['title']
+      episodeType=ET.SubElement(newItem, "itunes:episodeType")
+      episodeType.text=full
+      season=ET.SubElement(newItem, "itunes:season")
+      season.text=2022
+
+    root.write("transcoded_video/"+rssFileName+".rss", encoding='utf-8')
+    
+    podcast=VideoTranscodeTask(
+      rssFileName, 
+      "",
+      [
+"az storage azcopy blob upload -c \""+storageDir+"\" --account-name americanmahayana -s \"transcoded_video/{source_video}.rss\" "      
+      ],
+      )
+    
+
+    if podcast.Run():
       return True
 
     return False
