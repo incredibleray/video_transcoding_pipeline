@@ -9,7 +9,7 @@ from transcode_video import VideoTranscodeTask
 import datetime
 import requests
 import xml.etree.ElementTree as ET
-
+import uuid
 
 FLAGS = flags.FLAGS
 flags.DEFINE_enum('lang', 
@@ -77,10 +77,10 @@ class UpdateRss():
     baseUrl="https://americanmahayana.blob.core.windows.net/"
 
     if FLAGS.lang=="en":
-      rssFileName="podcast"
+      rssFileName="podcast888"
       storageDir="podcast"
     elif FLAGS.lang=="cn":
-      rssFileName="podcastCN"
+      rssFileName="podcastCN888"
       storageDir="podcast/CN"
     else:
       return False
@@ -88,19 +88,36 @@ class UpdateRss():
     url=baseUrl+storageDir+"/"+rssFileName+".rss"
     rssFileReq = requests.get(url)
 
-    root = ET.fromstring(rssFileReq.content)
-    channelRoot=root[0]
+    rssFile=open("transcoded_video/"+rssFileName+".rss", "w")
+    
+    for line in rssFileReq.text.split("\n"):
+      if line.count("</channel>")>0:         
+        for e in self._newEpisodes:
+          newItem = ET.Element('item')
+          nameElem=ET.SubElement(newItem, "title")
+          nameElem.text=e['title']
+          episodeType=ET.SubElement(newItem, "itunes:episodeType")
+          episodeType.text="full"
+          season=ET.SubElement(newItem, "itunes:season")
+          season.text="2022"
+          desc=ET.SubElement(newItem, 'description')
+          desc.text=" "
+          link=ET.SubElement(newItem, "link")
+          link.text="[Update this for new episode]"
+          enclosure=ET.SubElement(newItem, "enclosure", {"type":"audio/mpeg", "url":e['enclosure']})
+          guid=ET.SubElement(newItem, "guid")
+          guid.text=str(uuid.uuid4())
+          pubDate=ET.SubElement(newItem, "pubDate")
+          pubDate.text="[Update this for new episode]"
+          duration=ET.SubElement(newItem, "itunes:duration")
+          duration.text="[Update this for new episode]"
+          explicit=ET.SubElement(newItem, "itunes:explicit")
+          explicit.text="false"
 
-    for e in newEpisodes:
-      newItem = ET.SubElement(channelRoot, 'Item')
-      nameElem=ET.SubElement(newItem, "title")
-      nameElem.text=e['title']
-      episodeType=ET.SubElement(newItem, "itunes:episodeType")
-      episodeType.text=full
-      season=ET.SubElement(newItem, "itunes:season")
-      season.text=2022
-
-    root.write("transcoded_video/"+rssFileName+".rss", encoding='utf-8')
+          rssStr=ET.tostring(newItem, encoding="unicode")
+          rssFile.write(rssStr)
+          rssFile.write("\n")
+      rssFile.write(line+"\n")
     
     podcast=VideoTranscodeTask(
       rssFileName, 
