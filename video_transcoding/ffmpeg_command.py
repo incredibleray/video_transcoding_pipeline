@@ -49,11 +49,11 @@ h264_480p_pass_2_cmd_template='''
   '''
 
 h264_720p_pass_1_cmd_template='''
-  ffmpeg -y -i "src_video/{source_video}.mp4" {source_audio} -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads {threads} -preset veryslow -crf 34 -pass 1 -an -f null /dev/null
+  ffmpeg -y -i "src_video/{source_video}.mp4" {source_audio} -c:v libx264 -b:v 512k -g 1440 -threads {threads} -preset veryslow -crf 17 -pass 1 -an -f null /dev/null
   '''
 
 h264_720p_pass_2_cmd_template='''
-  ffmpeg -y -i "src_video/{source_video}.mp4" {source_audio} -vf scale=640x480 -c:v libx264 -b:v 512k -g 1440 -threads {threads} -preset veryslow -crf 34 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.720p.mp4"
+  ffmpeg -y -i "src_video/{source_video}.mp4" {source_audio} -c:v libx264 -b:v 512k -g 1440 -threads {threads} -preset veryslow -crf 17 -pass 2 -c:a copy -pix_fmt yuv420p -movflags +faststart "transcoded_video/{transcoded_video}.mp4"
   '''
 
 h264_generate_static_video_from_audio_cmd_template='''

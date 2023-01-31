@@ -1,190 +1,628 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Test Mahayana Chan Podcast</title>
-    <itunes:owner>
-      <itunes:email>incredibleray@gmail.com</itunes:email>
-    </itunes:owner>
-    <itunes:author>Unspecified</itunes:author>
-    <description>Test podcast please ignore.</description>
-    <itunes:image href="https://americanmahayana.blob.core.windows.net/podcast/cover.jpeg" />
-    <language>en-us</language>
+    <title>Master YongHua's American Mahayana Podcast</title>
     <link>https://www.youtube.com/c/MasterYongHua</link>
+    <language>en-us</language>
+    <copyright>© 2022 Bodhi Light International</copyright>
+    <itunes:author>Master YongHua</itunes:author>
+    <description>A re-broadcast of Master YongHua's live Dharma talks and sutra lectures streamed live on his YouTube Channel. Join us live and submit questions in chat as a part of our growing international community of cultivators:
+    
+    https://youtube.com/@MasterYongHua
+    
+    American Mahayana Buddhism is fundamentally Chinese Mahayana reinterpreted for the american culture and sensibilities, founded by Dharma Master YongHua
+    
+    Master YongHua was born in South Vietnam and came to the United States in 1973 to attend college.  He earned a B.S. degree in Mathematics from the University of Minnesota and an M.B.A. degree from the University of Chicago.
+    
+    After working in the corporate world for decades, he decided to leave the home life to study Chan under Great Master XuanHua, Tuyen Hoa, in 1995.  In 1999, he became fully ordained under Master Man Giac.  He then went to Taiwan to study Chinese and the Vinaya (the Buddhist rules of morality) for 2 years.  He returned to the United States in 2001 and practiced in seclusion until 2005, at which time he began teaching Chan and accepting disciples.
+    
+    Master YongHua has been offering free programs and retreats for over 15 years.  In 2012, Master YongHua founded Lu Mountain Temple, in Rosemead, California.  In 2018, his operations were moved to a new facility – Wei Mountain Temple – also located in Rosemead, California.  Wei Mountain Temple currently offers Chan meditation programs every Saturday and Buddhist Dharma assemblies every Sunday.  Master YongHua also lectures on the Mahayana Sutras every weekend.</description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>Bodhi Light International</itunes:name>
+      <itunes:email>miguel.ping@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://americanmahayana.blob.core.windows.net/podcast/engPodcastCover.jpg" />
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Buddhism" />
+    </itunes:category>
+    <itunes:category text="Education">
+      <itunes:category text="Self-Improvement" />
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Sunday Dharma Talk 20220814</title>
-      <description>Sunday Dharma Talk</description>
-      <pubDate>Sun, 14 August 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/DharmaTalk-20220814.mp3" />
-      <itunes:duration>40:00</itunes:duration>
-      <guid isPermaLink="false">20220814purelandharmatalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>23) Chan Qi • One Hundred Days of Chan (173) - 20221128</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=9asXuBz_YSs&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=37</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221128.mp3" />
+      <guid>chanqi20221128</guid>
+      <pubDate>Mon, 28 Nov 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:43:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Chan talk-Song of Enlightenment 20220730</title>
-      <description>Saturday Chan Talk</description>
-      <pubDate>Sat, 30 July 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/ChanTalk20220730.m4a" />
-      <itunes:duration>61:50</itunes:duration>
-      <guid isPermaLink="false">20220730chantalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>24) Chan Qi • One Hundred Days of Chan (174) - 20221129</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=CiSsxMEP__Q&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=38</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221129.mp3" />
+      <guid>chanqi20221129</guid>
+      <pubDate>Tue, 29 Nov 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:37:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Chan talk Asia 20220729</title>
-      <description>Friday Asia Chan Talk</description>
-      <pubDate>Fri, 29 July 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/ChanTalk20220729.m4a" />
-      <itunes:duration>81:25</itunes:duration>
-      <guid isPermaLink="false">20220729asiachantalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>25) Chan Qi • One Hundred Days of Chan (175) - 20221130</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=qJks6g-KQxs&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=39</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221130.mp3" />
+      <guid>chanqi20221130</guid>
+      <pubDate>Wed, 30 Nov 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:34:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Chan talk Asia 20220902</title>
-      <description>Friday Asia Chan Talk</description>
-      <pubDate>Fri, 02 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/22) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20220902.mp3" />
-      <itunes:duration>62:20</itunes:duration>
-      <guid isPermaLink="false">20220902asiachantalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>26) Chan Qi • One Hundred Days of Chan (176) - 20221201</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=wLfFdQ551LU&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=40</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221201.mp3" />
+      <guid>chanqi20221201</guid>
+      <pubDate>Thu, 01 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:34:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Avatamsaka Sutra Prologue 20220902</title>
-      <description>Avatamsaka Sutra Prologue</description>
-      <pubDate>Fri, 02 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/79) The Avatamsaka Sutra - Prologue - 20220902.mp3" />
-      <itunes:duration>94:50</itunes:duration>
-      <guid isPermaLink="false">20220902avatamsakasutraprologue</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>27) Chan Qi • The Avatamsaka Sutra - Prologue (87) - 20221202</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=qP7DXnx_GVQ&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=41</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221202.mp3" />
+      <guid>chanqi20221202</guid>
+      <pubDate>Fri, 02 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:34:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Chan talk Asia 20220909</title>
-      <description>Friday Asia Chan Talk</description>
-      <pubDate>Fri, 09 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/23) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20220909.mp3" />
-      <itunes:duration>78:21</itunes:duration>
-      <guid isPermaLink="false">20220909asiachantalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>28) Chan Qi • The 6th Patriarch Sutra (40) - 20221203</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=bh5ZIHLGPkY&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=42</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221203.mp3" />
+      <guid>chanqi20221203</guid>
+      <pubDate>Sat, 03 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>02:03:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Avatamsaka Sutra Prologue 20220909</title>
-      <description>Avatamsaka Sutra Prologue</description>
-      <pubDate>Fri, 09 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/80) The Avatamsaka Sutra - Prologue - 20220909.mp3" />
-      <itunes:duration>90:35</itunes:duration>
-      <guid isPermaLink="false">20220909avatamsakasutraprologue</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>29) Chan Qi • Dharma Talk • Amitabha Buddha's Birthday (30) - 20221204</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=g9z1Kfwt2lE&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=44</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi2022120401.mp3" />
+      <guid>chanqi2022120401</guid>
+      <pubDate>Sun, 04 Dec 2022 9:40:00 -0700</pubDate>
+      <itunes:duration>00:22:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220827</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 27 August 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/33) The 6th Patriarch Sutra - 20220827.mp3" />
-      <itunes:duration>131:15</itunes:duration>
-      <guid isPermaLink="false">20220827sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>30) Chan Qi • The Avatamsaka Sutra - Chapter 01 (45) - 20221204</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=r2LmJxNUdmY&amp;list=PL0HTAkAoG7h99gVW_YMf7TL_WCIFU5Kye&amp;index=43</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi2022120402.mp3" />
+      <guid>chanqi2022120402</guid>
+      <pubDate>Sun, 04 Dec 2022 19:20:00 -0700</pubDate>
+      <itunes:duration>02:15:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220820</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 20 August 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/32) The 6th Patriarch Sutra - 20220820.mp3" />
-      <itunes:duration>124:40</itunes:duration>
-      <guid isPermaLink="false">20220820sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>31) Chan Qi • One Hundred Days of Chan (177) - 20221205</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=54hUb_tjmPQ&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=17&amp;t=1948s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221205.mp3" />
+      <guid>chanqi20221205</guid>
+      <pubDate>Mon, 05 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:52:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220813</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 13 August 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/31) The 6th Patriarch Sutra - 20220813.mp3" />
-      <itunes:duration>138:55</itunes:duration>
-      <guid isPermaLink="false">20220813sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>32) Children, Fear, Divorce, Endure - Chan Qi • One Hundred Days of Chan (178) - 20221206</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=lVrbVynuIRE&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=18&amp;t=4828s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221206.mp3" />
+      <guid>chanqi20221206</guid>
+      <pubDate>Tue, 06 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:50:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220806</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 06 August 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/30) The 6th Patriarch Sutra - 20220806.mp3" />
-      <itunes:duration>128:10</itunes:duration>
-      <guid isPermaLink="false">20220806sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>33) 空無所空 /kōng wú suǒ kōng/ , 能所 , 圓覺經 , 端正 - Chan Qi • One Hundred Days of Chan (179) - 20221207</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=sAMQBkKncaI&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=19&amp;t=88s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221207.mp3" />
+      <guid>chanqi20221207</guid>
+      <pubDate>Wed, 07 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:48:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220730</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 30 July 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/29) The 6th Patriarch Sutra - 20220730.mp3" />
-      <itunes:duration>120:05</itunes:duration>
-      <guid isPermaLink="false">20220730sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>34) Chan Qi • One Hundred Days of Chan (180) - 20221208</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=ACgSeoHXykE&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=20</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221208.mp3" />
+      <guid>chanqi20221208</guid>
+      <pubDate>Thu, 08 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>02:04:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220723</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 23 July 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/28) The 6th Patriarch Sutra - 20220723.mp3" />
-      <itunes:duration>120:45</itunes:duration>
-      <guid isPermaLink="false">20220723sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>35) Chan Qi • The Avatamsaka Sutra - Prologue (88) - 20221209</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=kSaKM9b5-jo&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=88</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221209.mp3" />
+      <guid>chanqi20221209</guid>
+      <pubDate>Fri, 09 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>01:56:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220716</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 16 July 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/27) The 6th Patriarch Sutra - 20220716.mp3" />
-      <itunes:duration>119:44</itunes:duration>
-      <guid isPermaLink="false">20220716sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>36) Chan Qi • The 6th Patriarch Sutra (41) - 20221210</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=PhwTjk0Qo8A&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=41</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221210.mp3" />
+      <guid>chanqi20221210</guid>
+      <pubDate>Sat, 10 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>02:07:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220702</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 02 July 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/25) The 6th Patriarch Sutra - 20220702.mp3" />
-      <itunes:duration>121:20</itunes:duration>
-      <guid isPermaLink="false">20220702sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>37) Chan Qi • The Avatamsaka Sutra - Chapter 01 (46) - 20221211</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=r0470VF41Jo&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=46</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221211.mp3" />
+      <guid>chanqi20221211</guid>
+      <pubDate>Sun, 11 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>02:09:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220625</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 25 June 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/24) The 6th Patriarch Sutra - 20220625.mp3" />
-      <itunes:duration>123:45</itunes:duration>
-      <guid isPermaLink="false">20220625sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>38) Chan Qi • One Hundred Days of Chan (181) - 20221212</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=JcZU5iNb7_w&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=21</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221212.mp3" />
+      <guid>chanqi20221212</guid>
+      <pubDate>Mon, 12 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:41:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220611</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 11 June 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/14) Chan Qi • The 6th Patriarch Sutra (23) - 20220611.mp3" />
-      <itunes:duration>123:35</itunes:duration>
-      <guid isPermaLink="false">20220611sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>39) Chan Qi • One Hundred Days of Chan (182) - 20221213</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=5mmbvJl9I2U&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=22</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221213.mp3" />
+      <guid>chanqi20221213</guid>
+      <pubDate>Tue, 13 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:40:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Six Patriarch Sutra 20220910</title>
-      <description>Six Patriarch Sutra</description>
-      <pubDate>Sat, 10 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/34) The 6th Patriarch Sutra - 20220910.mp3" />
-      <itunes:duration>127:35</itunes:duration>
-      <guid isPermaLink="false">20220910sixpatriarchsutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>39) Chan Qi • One Hundred Days of Chan (182) - 20221213</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=5mmbvJl9I2U&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=22</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221213.mp3" />
+      <guid>chanqi20221213</guid>
+      <pubDate>Tue, 13 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:40:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Chan talk 20220910</title>
-      <description>Saturday Chan Talk</description>
-      <pubDate>Sat, 10 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/20) Chan Talk - 20220910.mp3" />
-      <itunes:duration>56:25</itunes:duration>
-      <guid isPermaLink="false">20220910chantalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>40) Chan Qi • One Hundred Days of Chan (183) - 20221214</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=qzU3Tan5lBY&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=23&amp;t=5805s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221214.mp3" />
+      <guid>chanqi20221214</guid>
+      <pubDate>Wed, 13 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:00:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Sunday Dharma Talk 20220911</title>
-      <description>Sunday Dharma Talk</description>
-      <pubDate>Sun, 11 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/25) Dharma Talk • Pureland - 20220911.mp3" />
-      <itunes:duration>45:10</itunes:duration>
-      <guid isPermaLink="false">20220911purelandharmatalk</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>42) Chan Qi • The Avatamsaka Sutra - Prologue (89) - 20221216</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=0pjqgkhLppY&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=89</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221216.mp3" />
+      <guid>chanqi20221216</guid>
+      <pubDate>Fri, 16 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:36:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Avatamsaka Sutra Chapter 1 20220911</title>
-      <description>Avatamsaka Sutra</description>
-      <pubDate>Sun, 11 September 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcasts/38) The Avatamsaka Sutra - Chapter 01 - 20220911.mp3" />
-      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">123:15</itunes:duration>
-      <guid isPermaLink="false">20220911avatamsakasutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>
+41) Chan Qi • One Hundred Days of Chan (184) - 20221215</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=ZHu_BgDEH40&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=24</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221215.mp3" />
+      <guid>chanqi20221215</guid>
+      <pubDate>Thu, 13 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:50:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title>Guan Yin Qi @ JMT 관음칠 청주 보산사 - 10_10_2022</title>
-      <description>Guan Yin Qi Lecture</description>
-      <pubDate>Mon, 10 October 2022</pubDate>
-      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/03) Guan Yin Qi @ JMT 관음칠 청주 보산사 - 10_10_2022.mp3" />
-      <itunes:duration>01:13:55</itunes:duration>
-      <guid isPermaLink="false">20220911avatamsakasutra</guid>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>43) Chan Qi • The 6th Patriarch Sutra (42) - 20221217</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=XeRhN_FHR6A&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=42&amp;t=2035s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221217.mp3" />
+      <guid>chanqi20221217</guid>
+      <pubDate>Sat, 17 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:09:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
     </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>44) Chan Qi • The Avatamsaka Sutra - Chapter 01 (47) - 20221218</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=eroszj-gPS0&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=47</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221218.mp3" />
+      <guid>chanqi20221218</guid>
+      <pubDate>Sun, 18 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:02:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>45) Chan Qi • One Hundred Days of Chan (185) - 20221219</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=jR8YJBozGtY&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=25&amp;t=1770s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221219.mp3" />
+      <guid>chanqi20221219</guid>
+      <pubDate>Mon, 19 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:30:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>46) Chan Qi • One Hundred Days of Chan (186) - 20221220</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=csdinuKL3uk&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=26</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221220.mp3" />
+      <guid>chanqi20221220</guid>
+      <pubDate>Tue, 20 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:30:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>47) Chan Qi • One Hundred Days of Chan (187) - 20221221</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=u7o4SBp3m8c&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=27&amp;t=675s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221221.mp3" />
+      <guid>chanqi20221221</guid>
+      <pubDate>Wed, 21 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:59:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>
+48) Chan Qi • One Hundred Days of Chan (188) - 20221222</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=bcAAFdo8ZKs&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=28</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221222.mp3" />
+      <guid>chanqi20221222</guid>
+      <pubDate>Thu, 22 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:45:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>
+49) Chan Qi • The Avatamsaka Sutra - Prologue (90) - 20221223</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=fSFXro3CtUA&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=90&amp;t=2527s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221223.mp3" />
+      <guid>chanqi20221223</guid>
+      <pubDate>Fri, 23 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:36:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>50) Chan Qi • The 6th Patriarch Sutra (43) - 20221224</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=ip_ci8E4MZU&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=43</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221224.mp3" />
+      <guid>chanqi20221224</guid>
+      <pubDate>Sat, 24 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:19:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>51) Chan Qi • The Avatamsaka Sutra - Chapter 01 (48) - 20221225</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=rE6QKvBnVYc&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=48&amp;t=1666s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221225.mp3" />
+      <guid>chanqi20221225</guid>
+      <pubDate>Sun, 25 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:04:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>52) Chan Qi • One Hundred Days of Chan (189) - 20221226</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=ikiIrIiiB8A&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=29&amp;t=1756s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221226.mp3" />
+      <guid>chanqi20221226</guid>
+      <pubDate>Mon, 26 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:47:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>53) Chan Qi • One Hundred Days of Chan (190) - 20221227</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=7g8-D6w3omM&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=30&amp;t=1652s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221227.mp3" />
+      <guid>chanqi20221227</guid>
+      <pubDate>Tue, 27 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:43:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>54) Chan Qi • One Hundred Days of Chan (191) - 20221228</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=eHrxZcWAP_A&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=31&amp;t=240s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221228.mp3" />
+      <guid>chanqi20221228</guid>
+      <pubDate>Wed, 28 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:54:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>55) Chan Qi • One Hundred Days of Chan (192) - 20221229</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=7x6FvDt_SwM&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=32</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221229.mp3" />
+      <guid>chanqi20221229</guid>
+      <pubDate>Thu, 29 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:02:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>56) Chan Qi • The Avatamsaka Sutra - Prologue (91) - 20221230</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=MFXQ2jWhKJ4&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=91&amp;t=212s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221230.mp3" />
+      <guid>chanqi20221230</guid>
+      <pubDate>Fri, 30 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>2:24:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <title>57) Chan Qi • The 6th Patriarch Sutra (44) - 20221231</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=3SUIQf2Ry7E&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=44&amp;t=4171s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20221231.mp3" />
+      <guid>chanqi20221231</guid>
+      <pubDate>Sat, 31 Dec 2022 7:20:00 -0700</pubDate>
+      <itunes:duration>1:38:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>58) Chan Qi • The Avatamsaka Sutra - Chapter 01 (49) - 20230101</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=-FOJ84F7U2A&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=49</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230101.mp3" />
+      <guid>chanqi20230101</guid>
+      <pubDate>Sun, 1 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>2:10:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>59) Chan Qi • One Hundred Days of Chan (193) - 20230102</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=YzkXN-p0etk&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=33</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230102.mp3" />
+      <guid>chanqi20230102</guid>
+      <pubDate>Mon, 2 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:41:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>60) Chan Qi • One Hundred Days of Chan (194) - 20230103</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=YzkXN-p0etk&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=33</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230103.mp3" />
+      <guid>chanqi20230103</guid>
+      <pubDate>Tue, 3 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:40:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>61) Chan Qi • One Hundred Days of Chan (195) - 20230104</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=K5FAFelNqdM&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=35</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230104.mp3" />
+      <guid>chanqi20230104</guid>
+      <pubDate>Wed, 4 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:48:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>62) Chan Qi • One Hundred Days of Chan (196) - 20230105</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=1-XXcfpabpY&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=36</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230105.mp3" />
+      <guid>chanqi20230105</guid>
+      <pubDate>Thu, 5 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:56:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>63) Chan Qi • The Avatamsaka Sutra - Prologue (92) - 20230106</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=fidaXrZAgp4&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=92</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230106.mp3" />
+      <guid>chanqi20230106</guid>
+      <pubDate>Fri, 6 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:33:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>64) Chan Qi • The 6th Patriarch Sutra (45) - 20230107</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=eDWXIV5CkCY&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=45</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230107.mp3" />
+      <guid>chanqi20230107</guid>
+      <pubDate>Sat, 7 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>2:11:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>65) Chan Qi • The Avatamsaka Sutra - Chapter 01 (50) - 20230108</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=iHY1KTz_1bw&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=50</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230108.mp3" />
+      <guid>chanqi20230108</guid>
+      <pubDate>Sun, 8 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>2:00:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>66) Chan Qi • One Hundred Days of Chan (197) - 20230109</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=fRuF6I3sONU&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=37&amp;t=274s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230109.mp3" />
+      <guid>chanqi20230109</guid>
+      <pubDate>Mon, 9 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:42:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>67) Chan Qi • One Hundred Days of Chan (198) - 20230110</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=2MSZ3U3XG6U&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=38</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230110.mp3" />
+      <guid>chanqi20230110</guid>
+      <pubDate>Tue, 10 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:44:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>68) Chan Qi • One Hundred Days of Chan (199) - 20230111</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=s9_LjwBC3Rs&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=39&amp;t=2944s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230111.mp3" />
+      <guid>chanqi20230111</guid>
+      <pubDate>Wed, 11 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:57:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>69) Chan Qi • One Hundred Days of Chan (200) - 20230112</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=U7owf2xDYCo&amp;list=PL0HTAkAoG7h_pNpEy8eAi61B3WWTjI1tO&amp;index=40</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230112.mp3" />
+      <guid>chanqi20230112</guid>
+      <pubDate>Thu, 12 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:42:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <title>70) Feedback • Chan Qi - 20230113</title>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=MlR-dX1GbB8&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=93</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230113.mp3" />
+      <guid>chanqi20230113</guid>
+      <pubDate>Fri, 13 Jan 2023 7:20:00 -0700</pubDate>
+      <itunes:duration>1:32:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+<item><title>70) Feedback •  Chan Qi - 20230113</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/35ad6c-20230113.mp3" /><guid>5c841315-759d-4229-a132-cd5cc48445c9</guid><pubDate>Fri, 13 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>[Update this for new episode]</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>01) Dharma Talk • Maitreya Buddha's Birthday - 20230115</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/5d8db6-20230115.mp3" /><guid>809389c2-0017-4c44-bdd4-db2d7145f6d9</guid><pubDate>Sun, 15 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>[Update this for new episode]</itunes:duration><itunes:explicit>false</itunes:explicit></item>
   </channel>
 </rss>
+

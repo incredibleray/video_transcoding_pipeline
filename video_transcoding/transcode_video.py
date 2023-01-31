@@ -134,7 +134,7 @@ class Video():
       ],
       )
       
-    extract_audio_task.Run()
+    # extract_audio_task.Run()
 
     # if generate_thumbnail_task.Run() == False:
     #   return False
@@ -145,8 +145,8 @@ class Video():
     # if h264_360p_transcode_task.Run() == False:
     #   return False
 
-    # if h264_720p_transcode_task.Run() == False:
-    #   return False
+    if h264_720p_transcode_task.Run() == False:
+      return False
 
     # if vp9_360p_transcode_task.Run() == False:
     #   return False
