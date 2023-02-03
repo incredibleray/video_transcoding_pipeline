@@ -5,12 +5,12 @@ from transcode_video import Video
 from audio_to_static_video import StaticVideo
 from text_find_replace import TextFindReplace
 from datetime import date
-from podcast import Podcast
+from podcast import Podcast, UpdateRss
 
 FLAGS = flags.FLAGS
 
 flags.DEFINE_enum('operation', 
-'convert_audio_to_static_videos', 
+'podcast', 
 ['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace',
 'podcast'], '')
 flags.DEFINE_boolean('scan_dir_for_source_av_files', True, '')
@@ -74,19 +74,14 @@ def convert_videos_to_podcast(source_audios):
         'title': source_audio,
         "enclosure": "https://americanmahayana.blob.core.windows.net/"+video._storagePath
       }
-    #   manifest_entry='''<item>
-    #   <itunes:episodeType>full</itunes:episodeType>
-    #   <itunes:season>2022</itunes:season>
-    #   <title>{source_audio}</title>
-    #   <description></description>
-    #   <link></link>
-    #   <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/{video._storagePath}" />
-    #   <guid>{video._transcoded_video}</guid>
-    #   <pubDate>{video._pubDate} 7:20:00 -0700</pubDate>
-    #   <itunes:duration></itunes:duration>
-    #   <itunes:explicit>false</itunes:explicit>
-    # </item>'''
       manifest.append(manifest_entry)
+
+  # manifest=[{
+  #       'title': "59) Chan Qi • One Hundred Days of Chan (193) - 20230102",
+  #       "enclosure": "https://americanmahayana.blob.core.windows.net/podcast/EN/ChanQi20230102.mp3"
+  #     }]
+  uploadRss=UpdateRss(manifest)
+  uploadRss.Transcode()
 
   return manifest
 
