@@ -2,3 +2,4 @@ absl-py
 wheel
 webvtt-py
 requests
+pydub

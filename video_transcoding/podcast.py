@@ -11,7 +11,8 @@ import requests
 import xml.etree.ElementTree as ET
 import uuid
 import hashlib
-
+from pydub import AudioSegment
+import os
 
 FLAGS = flags.FLAGS
 flags.DEFINE_enum('lang', 
@@ -38,12 +39,19 @@ class Podcast():
       source_video_name)
     self._source_video_name=source_video_name
 
-    dateStr=source_video_name.split(" ")[-1]
+    
 
     if FLAGS.lang=="en":
+      dateStr=source_video_name.split(" ")[-1]
       hashStr = hashlib.sha256(source_video_name.encode()).hexdigest()[:6]
       transcoded_video=hashStr+"-"+dateStr
       storageDir="podcast/EN"
+    elif FLAGS.lang=="kr":
+      dateStrPattern = re.compile('(\d+_\d+_\d+)\s')
+      dateStr=dateStrPattern.findall(source_video_name)[0]
+      hashStr = hashlib.sha256(source_video_name.encode()).hexdigest()[:6]
+      transcoded_video=hashStr+"-"+dateStr
+      storageDir="podcast/KR"
     else:
       transcoded_video=source_video_name
       storageDir="podcast/CN"
@@ -53,14 +61,18 @@ class Podcast():
       'transcoded video is: %s', 
       transcoded_video)
 
+    cmds=[
+"ffmpeg -y -i \"src_video/{source_video}.mp4\" -vn -c:a libmp3lame -q:a 0 \"transcoded_video/{transcoded_video}.mp3\" ",
+"az storage azcopy blob upload -c \""+storageDir+"\" --account-name americanmahayana -s \"transcoded_video/{transcoded_video}.mp3\" "      
+      ]
 
+    if FLAGS.lang=="kr":
+      cmds=cmds[:1]
+    
     podcast=VideoTranscodeTask(
       self._source_video, 
       transcoded_video,
-      [
-"ffmpeg -y -i \"src_video/{source_video}.mp4\" -vn -c:a libmp3lame -q:a 0 \"transcoded_video/{transcoded_video}.mp3\" ",
-"az storage azcopy blob upload -c \""+storageDir+"\" --account-name americanmahayana -s \"transcoded_video/{transcoded_video}.mp3\" "      
-      ],
+      cmds,
       )
     
 
@@ -82,8 +94,11 @@ class UpdateRss():
       rssFileName="podcast"
       storageDir="podcast"
     elif FLAGS.lang=="cn":
-      rssFileName="podcastCN888"
+      rssFileName="podcastCN"
       storageDir="podcast/CN"
+    elif FLAGS.lang=="kr":
+      rssFileName="podcastKR"
+      storageDir="podcast/KR"
     else:
       return False
 
@@ -113,15 +128,33 @@ class UpdateRss():
           desc.text=" "
           link=ET.SubElement(newItem, "link")
           link.text="[Update this for new episode]"
-          enclosure=ET.SubElement(newItem, "enclosure", {"type":"audio/mpeg", "url":e['enclosure']})
+
+          audioPath="transcoded_video/"+e['enclosure'].split("/")[-1]
+          byteSize = os.path.getsize(audioPath)
+          enclosure=ET.SubElement(newItem, "enclosure", {"type":"audio/mpeg", "url":e['enclosure'], "length":str(byteSize)})
           guid=ET.SubElement(newItem, "guid")
           guid.text=str(uuid.uuid4())
           pubDate=ET.SubElement(newItem, "pubDate")
-          dateStr=e['title'].split(' ')[-1]
-          d=datetime.date(int(dateStr[0:4]), int(dateStr[4:6]), int(dateStr[6:]))
+          
+          if FLAGS.lang=="kr":
+            dateStrPattern = re.compile('(\d+)_(\d+)_(\d+)\s')
+            dateStr=dateStrPattern.findall(e['title'])[0]
+            d=datetime.date(int(dateStr[0]), int(dateStr[1]), int(dateStr[2]))
+          else:
+            dateStr=e['title'].split(' ')[-1]
+            d=datetime.date(int(dateStr[0:4]), int(dateStr[4:6]), int(dateStr[6:]))
           pubDate.text=d.strftime("%a, %d %b %Y")+"  19:20:00 -0700"
           duration=ET.SubElement(newItem, "itunes:duration")
-          duration.text="[Update this for new episode]"
+          # Load the audio file
+          audio = AudioSegment.from_file(audioPath, format="mp3")
+
+          # Get the length of the audio in milliseconds
+          length = len(audio)
+
+          # Convert the length to minutes and seconds
+          minutes = int(length / 1000 / 60)
+          seconds = int(length / 1000 % 60)
+          duration.text=str(minutes)+":"+str(seconds)
           explicit=ET.SubElement(newItem, "itunes:explicit")
           explicit.text="false"
 

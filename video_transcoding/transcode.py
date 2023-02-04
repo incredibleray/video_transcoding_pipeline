@@ -72,7 +72,8 @@ def convert_videos_to_podcast(source_audios):
     if video.Transcode():
       manifest_entry={
         'title': source_audio,
-        "enclosure": "https://americanmahayana.blob.core.windows.net/"+video._storagePath
+        "enclosure": "https://americanmahayana.blob.core.windows.net/"+video._storagePath,
+        "fileName": video._transcoded_video+".mp3"
       }
       manifest.append(manifest_entry)
 
