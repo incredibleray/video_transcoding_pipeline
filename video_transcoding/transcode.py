@@ -25,11 +25,8 @@ def transcode_videos(source_videos):
     if video.Transcode():
       manifest_entry={
         'title': video._source_video_name,
-        'chinese_title': '',
-        'hash': '',
-        'path': video._transcoded_video,
-        'related_videos': [],
-        'h264_streams':['240p', '360p', '720p']
+        'url': video._cloudVideoPath,
+        'thumbnail': video._cloudThumbnailPath,
         }
       manifest.append(manifest_entry)
 
@@ -46,7 +43,7 @@ def convert_audio_to_static_videos(source_audios):
         'title': video._source_video_name,
         'chinese_title': '',
         'hash': '',
-        'path': video._transcoded_video,
+        'path': video._cloudPath,
         'related_videos': [],
         'h264_streams':['240p', '360p', '720p'],
         "tags": [],

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>영화선사 법문 팟케스트</title>
@@ -30,13 +30,313 @@
       <itunes:category text="Self-Improvement" />
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
-<item><title>65) 2023_01_08  영화선사 선칠 법문_ 대방광불화엄경천석 Chapter 1_ 모든 어두운 미혹(delusion_혼란confusion)과 공포를 멸하기. 귀신도 강해진다.</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/403e4f-2023_01_08.mp3" length="137241159" /><guid>1299e010-de71-4736-af2a-552b8dfee771</guid><pubDate>Sun, 08 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>127:20</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>66) 2023_01_09 영화선사 선칠 법문_</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/fdf22a-2023_01_09.mp3" length="116344072" /><guid>4c743940-f53a-4f21-93c5-488680866332</guid><pubDate>Mon, 09 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>105:10</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>2023_1_15 영화선사 일요법문_ 미륵탄신일 Maitreya Birthday</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/c2d053-2023_1_15.mp3" length="46083397" /><guid>f5e1abcb-b3ee-48ec-a989-f1432e76f388</guid><pubDate>Sun, 15 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>40:43</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>69) 2023_01_12 영화선사 선칠 법문_</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/d9717a-2023_01_12.mp3" length="116458315" /><guid>ebd037bc-b090-4348-b50b-5ea7404a6a53</guid><pubDate>Thu, 12 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>103:5</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>68) 2023_01_11 영화선사 선칠 법문_ 무념 無念 또는 자비심_ 당신은 무엇을 선택할까요_  모든 경계를 만나면 참아야 한다.</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/3408d3-2023_01_11.mp3" length="132201163" /><guid>bce6f2ff-9474-4002-8746-bc10df028a82</guid><pubDate>Wed, 11 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>118:20</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>70) 2023_01_13 영화선사 선칠 법문_ 대방광불화엄경 천석_ 프롤로그_</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/c689af-2023_01_13.mp3" length="103245086" /><guid>6100d383-4a32-414b-ab1f-f2c3653e3956</guid><pubDate>Fri, 13 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>92:25</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>67) 2023_01_10 영화선사 선칠 법문_ 성현과 범부, 마음에서 만든 것</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/0bd7bf-2023_01_10.mp3" length="117596875" /><guid>ce8f5796-d0d6-4146-b89d-f288db3b735e</guid><pubDate>Tue, 10 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>104:15</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+    <item>
+      <title>65) 2023_01_08  영화선사 선칠 법문_ 대방광불화엄경천석 Chapter 1_ 모든 어두운 미혹(delusion_혼란confusion)과 공포를 멸하기. 귀신도 강해진다.</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/403e4f-2023_01_08.mp3" />
+      <pubDate>Sun, 08 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:27:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_24 대방광불화엄경 천석_ 프롤로그_ 씨앗, 번뇌, 보리</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/Wm6esf6A3kI?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/51aa63-2023_02_24.mp3" />
+      <pubDate>Fri, 24 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:38:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_24_ 아시아인을 위한 토요 참선 법문_ 신심 Faith</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/vm2A1zR9njs?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/01dff5-2023_02_24.mp3" />
+      <pubDate>Fri, 24 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:05:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_26 대방광불화엄경천석_ Chapter 1_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/30d289-2023_02_26.mp3" />
+      <pubDate>Sun, 26 Feb2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:58:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_2_25 영화선사 토요법문_ 삶이란_ 스트레스! 스트레스! 새기술을 배워 역량을 늘려라. 빠른 배터리(에너지)충전 기술</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=ZJjBoAfB-UQ</link>
+      <enclosure type="audio/mpeg" url="'https://americanmahayana.blob.core.windows.net/podcast/KR/e38359-2023_2_25.mp3" />
+      <pubDate>Sat, 25 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:13:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>'2023_02_25 영화선사 육조단경 강설_ 무상송2 보시'</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/jGUsEtgMhjM?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/c8820b-2023_02_25.mp3" />
+      <pubDate>Sat, 25 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>2:13:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_2_26 영화선사 일요법문 대비참_ 인내의 기반_ 1.복 (보시) 2. 도덕,  의義principled 양讓 yielding인忍 patient', 'enclosure'</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/salsIu0_bBg?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/4c3678-2023_2_26.mp3" />
+      <pubDate>Sun,26 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>30:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_2_18 영화선사 토요법문_  수다원의 복(福,), 8지 보살, 허운대사, 대보살 (大菩薩) 소보살(小菩薩).</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/e36cSmSnvuI?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/9c7bc1-2023_2_18.mp3" />
+      <pubDate>Sat, 18 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:03:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_19 대방광불화엄경천석_ Chapter 1</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/-B3yDDT4xyY?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/b2eced-2023_02_19.mp3" />
+      <pubDate>Sun, 19 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>2:04:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_17 대방광불화엄경 천석_ 프롤로그_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/R2jOC6IeFH4?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/29df0a-2023_02_17.mp3" />
+      <pubDate>Sat, 17 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:35:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_2_19 영화선사 일요법문</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/ZGmw3g08Ju8?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/269a77-2023_2_19.mp3" />
+      <pubDate>Sun, 19 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>44:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_18 영화선사 선칠 법문_ 육조단경 강설</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/jMW_0aRu-ao?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/121fc1-2023_02_18.mp3" />
+      <pubDate>Sat, 18 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:27:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_17_ 아시아인을 위한 토요 참선 법문_ 깨달은 자의 괴로움, 망자를 위한 몽산시식</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/S0sUjdbB7JU?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/ef9786-2023_02_17.mp3" />
+      <pubDate>Fri, 17 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:06:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_2_12 영화선사 일요법문</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=w1jzWZx8l2w</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/42f5f3-2023_2_12.mp3" />
+      <pubDate>Sun, 12 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>35:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023/02/12 대방광불화엄경천석: Chapter 1: 괴로움 (suffering)으로부터 도망처도 괴로움은 우리를 쫓아온다!</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=Vqr9DmoSIdM</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/09a14d-2023_02_12.mp3" />
+      <pubDate>Sun, 12 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:55:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_04 영화선사 선칠 법문_ 육조단경 강설</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/CRYTckuZb00?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/0f735c-2023_02_04.mp3" />
+      <pubDate>Fri, 03 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:38:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023/02/03: 아시아인을 위한 토요 참선 법문: 위앙종, 위산/앙산 대사, 대승의 선근, 보시, 바른 인목</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/NrwA3PeCHKg?feature=share</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/c368c0-2023_02_03.mp3" />
+      <pubDate>Fri, 03 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:01:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_02_03 대방광불화엄경 천석_ 프롤로그_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/CRYTckuZb00?feature=share</link>
+      <enclosure nil="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/54997f-2023_02_03.mp3" />
+      <pubDate>Fri, 03 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:38:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023/2/4 영화선사 토요법문: 사리는 부처님, 위폐는 복, 명상의 필요성, 비밀 소스</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/0Q3ek-FGnds?feature=share</link>
+      <enclosure nil="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/b898fc-2023_2_4.mp3" />
+      <pubDate>Sat, 04 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:02:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023/02/05 대방광불화엄경천석: Chapter 1: 업(業)! 높은단계의 보살은 업을 일으키는 일으키지 않는 선택을 하신다.</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/live/PXCBgBn6kUE?feature=share</link>
+      <enclosure nil="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/373753-2023_02_05.mp3" />
+      <pubDate>Sun, 05 Feb 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:59:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>66) 2023_01_09 영화선사 선칠 법문_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/fdf22a-2023_01_09.mp3" />
+      <pubDate>Mon, 09 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>105:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_1_15 영화선사 일요법문_ 미륵탄신일 Maitreya Birthday</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/c2d053-2023_1_15.mp3" />
+      <pubDate>Sun, 15 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>40:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>69) 2023_01_12 영화선사 선칠 법문_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/d9717a-2023_01_12.mp3" />
+      <pubDate>Thu, 12 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>103:5</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>68) 2023_01_11 영화선사 선칠 법문_ 무념 無念 또는 자비심_ 당신은 무엇을 선택할까요_  모든 경계를 만나면 참아야 한다.</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/3408d3-2023_01_11.mp3" />
+      <pubDate>Wed, 11 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>118:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>70) 2023_01_13 영화선사 선칠 법문_ 대방광불화엄경 천석_ 프롤로그_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/c689af-2023_01_13.mp3" />
+      <pubDate>Fri, 13 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>92:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>67) 2023_01_10 영화선사 선칠 법문_ 성현과 범부, 마음에서 만든 것</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>[Update this for new episode]</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/0bd7bf-2023_01_10.mp3" />
+      <pubDate>Tue, 10 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>104:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>64) 2023_01_07 영화선사 선칠 법문_ 육조단경 강설_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=DNi_tAShjlE&amp;t=314s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/7dc914-2023_01_07.mp3" />
+      <pubDate>Sat, 7 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>2:12:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>2023_01_06 영화선사 선칠 법문_ 대방광불화엄경 천석_ 프롤로그_</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=IgzNg6rLfzU</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/KR/501875-2023_01_06.mp3" />
+      <pubDate>Fri, 6 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>1:32:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
-

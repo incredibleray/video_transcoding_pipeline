@@ -47,7 +47,7 @@ class Podcast():
       transcoded_video=hashStr+"-"+dateStr
       storageDir="podcast/EN"
     elif FLAGS.lang=="kr":
-      dateStrPattern = re.compile('(\d+_\d+_\d+)\s')
+      dateStrPattern = re.compile('(\d+_\d+_\d+)')
       dateStr=dateStrPattern.findall(source_video_name)[0]
       hashStr = hashlib.sha256(source_video_name.encode()).hexdigest()[:6]
       transcoded_video=hashStr+"-"+dateStr
@@ -66,7 +66,8 @@ class Podcast():
 "az storage azcopy blob upload -c \""+storageDir+"\" --account-name americanmahayana -s \"transcoded_video/{transcoded_video}.mp3\" "      
       ]
 
-    if FLAGS.lang=="kr":
+    # if FLAGS.lang in ("kr", "en"):
+    if FLAGS.lang =="kr":
       cmds=cmds[:1]
     
     podcast=VideoTranscodeTask(
@@ -123,27 +124,34 @@ class UpdateRss():
           episodeType=ET.SubElement(newItem, "itunes:episodeType")
           episodeType.text="full"
           season=ET.SubElement(newItem, "itunes:season")
-          season.text="2022"
+          season.text="2023"
           desc=ET.SubElement(newItem, 'description')
           desc.text=" "
           link=ET.SubElement(newItem, "link")
-          link.text="[Update this for new episode]"
+          if FLAGS.lang=="en":
+            link.text="https://www.youtube.com/c/MasterYongHua"
+          else:
+            link.text=" "
 
           audioPath="transcoded_video/"+e['enclosure'].split("/")[-1]
           byteSize = os.path.getsize(audioPath)
-          enclosure=ET.SubElement(newItem, "enclosure", {"type":"audio/mpeg", "url":e['enclosure'], "length":str(byteSize)})
-          guid=ET.SubElement(newItem, "guid")
-          guid.text=str(uuid.uuid4())
+          enclosure=ET.SubElement(newItem, "enclosure", {"type":"audio/mpeg", "url":e['enclosure'], 
+          # "length":str(byteSize)
+          })
+          # guid=ET.SubElement(newItem, "guid")
+          # guid.text=str(uuid.uuid4())
           pubDate=ET.SubElement(newItem, "pubDate")
           
           if FLAGS.lang=="kr":
-            dateStrPattern = re.compile('(\d+)_(\d+)_(\d+)\s')
+            dateStrPattern = re.compile('(\d+)_(\d+)_(\d+)')
             dateStr=dateStrPattern.findall(e['title'])[0]
             d=datetime.date(int(dateStr[0]), int(dateStr[1]), int(dateStr[2]))
           else:
             dateStr=e['title'].split(' ')[-1]
             d=datetime.date(int(dateStr[0:4]), int(dateStr[4:6]), int(dateStr[6:]))
+
           pubDate.text=d.strftime("%a, %d %b %Y")+"  19:20:00 -0700"
+
           duration=ET.SubElement(newItem, "itunes:duration")
           # Load the audio file
           audio = AudioSegment.from_file(audioPath, format="mp3")
@@ -154,7 +162,9 @@ class UpdateRss():
           # Convert the length to minutes and seconds
           minutes = int(length / 1000 / 60)
           seconds = int(length / 1000 % 60)
-          duration.text=str(minutes)+":"+str(seconds)
+          
+          duration.text="{}:{:02d}".format(minutes,seconds)
+          
           explicit=ET.SubElement(newItem, "itunes:explicit")
           explicit.text="false"
 

@@ -621,8 +621,122 @@
       <itunes:duration>1:32:24</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
-<item><title>70) Feedback •  Chan Qi - 20230113</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/35ad6c-20230113.mp3" /><guid>5c841315-759d-4229-a132-cd5cc48445c9</guid><pubDate>Fri, 13 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>[Update this for new episode]</itunes:duration><itunes:explicit>false</itunes:explicit></item>
-<item><title>01) Dharma Talk • Maitreya Buddha's Birthday - 20230115</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2022</itunes:season><description> </description><link>[Update this for new episode]</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/5d8db6-20230115.mp3" /><guid>809389c2-0017-4c44-bdd4-db2d7145f6d9</guid><pubDate>Sun, 15 Jan 2023  19:20:00 -0700</pubDate><itunes:duration>[Update this for new episode]</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+    <item>
+      <title>01) Dharma Talk • Maitreya Buddha's Birthday - 20230115</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2022</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=SzC25E-syJU&amp;list=PL0HTAkAoG7h9C80Igc0SjBLPYLKdsy4aj&amp;index=3&amp;t=2270s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/5d8db6-20230115.mp3" />
+      <guid>Dharma Talk (Year 2023) • Maitreya Buddha's Dharma Assembly</guid>
+      <pubDate>Sun, 15 Jan 2023  19:20:00 -0700</pubDate>
+      <itunes:duration>44:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>01) Chan Talk - 20230204</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=KGMXCh4s0Zw&amp;list=PL0HTAkAoG7h8dS_6VCvAc1tT_GCmKaZDd&amp;index=1</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/1bf113-20230204.mp3" length="70923194" />
+      <guid>ChanMeditation20230204</guid>
+      <pubDate>Sat, 4 Feb 2023  9:00:00 -0700</pubDate>
+      <itunes:duration>1:00:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>01) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20230203</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=1YA8eeTA0Fk&amp;list=PL0HTAkAoG7h_tzcLHyOGJyYXx6DpWAotF&amp;index=1&amp;t=837s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/3d627a-20230203.mp3" length="73848283" />
+      <guid>SundayChanClass-for-Asia20230203</guid>
+      <pubDate>Fri, 4 Feb 2023 17:00 -0700</pubDate>
+      <itunes:duration>1:01:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>46) The 6th Patriarch Sutra - 20230204</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=naaXuXrMw-8&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=46</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/5c4d8d-20230204.mp3" length="146913458" />
+      <guid>The6thPatriarchSutra-20230204</guid>
+      <pubDate>Sat, 4 Feb 2023  12:30  -0700</pubDate>
+      <itunes:duration>2:01:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>93) The Avatamsaka Sutra - Prologue - 20230203</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=faFis6h6nXE&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=93</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/2f07f9-20230203.mp3" length="124765548"></enclosure>
+      <guid>AvatamsakaSutra-Prologue20230204</guid>
+      <pubDate>Fri,4 Feb 2023  19:20 -0700</pubDate>
+      <itunes:duration>1:39:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>02) Dharma Talk • Pureland - 20230205</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=aeT-X2RUNa0&amp;list=PL0HTAkAoG7h8_5wOqhKpwkXnvZEMICD_8&amp;index=2</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/323ac3-20230205.mp3" length="46253265" />
+      <guid>SundayDharmaTalk-20230205</guid>
+      <pubDate>Sun, 5 Feb 2023  9:40:00 -0700</pubDate>
+      <itunes:duration>40:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>51) The Avatamsaka Sutra - Chapter 01 - 20230205</title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2023</itunes:season>
+      <description></description>
+      <link>https://www.youtube.com/watch?v=e1rTRo7HjIQ&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=51&amp;t=4634s</link>
+      <enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/9d85cd-20230205.mp3" length="150092720" />
+      <pubDate>Sun, 5 Feb 2023  12:30:00 -0700</pubDate>
+      <itunes:duration>1:59:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+<item><title>02) Chan Talk - 20230211</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/watch?v=haKAXUy9TNE&amp;list=PL0HTAkAoG7h8dS_6VCvAc1tT_GCmKaZDd&amp;index=2</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/05cda9-20230211.mp3" length="76772456" /><pubDate>Sat, 11 Feb 2023  10:00:00 -0700</pubDate><itunes:duration>1:07:28</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>47) The 6th Patriarch Sutra - 20230211</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/watch?v=X4brtBcsvy8&amp;list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&amp;index=47</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/5cb2cf-20230211.mp3" length="143733772" /><pubDate>Sat, 11 Feb 2023  12:30:00 -0700</pubDate><itunes:duration>2:05:25</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>94) The Avatamsaka Sutra - Prologue - 20230210</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/watch?v=sQCah36H8bo&amp;list=PL0HTAkAoG7h8TvKS23-TSs4kHPtRmcSB3&amp;index=94</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/a00680-20230210.mp3" length="107485165" /><pubDate>Fri, 10 Feb 2023  7:20:00 -0700</pubDate><itunes:duration>1:32:25</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>02) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20230210</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/watch?v=9fjDUJGaKjo&amp;list=PL0HTAkAoG7h_tzcLHyOGJyYXx6DpWAotF&amp;index=2</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/4dfa7d-20230210.mp3" length="76363087" /><pubDate>Sat, 10 Feb 2023  5:00:00 -0700</pubDate><itunes:duration>1:04:25</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>52) The Avatamsaka Sutra - Chapter 01 - 20230212</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/watch?v=hPmFMXUp8VI&amp;list=PL0HTAkAoG7h955344zrOJ9TcG9eteExjS&amp;index=53</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/a290e6-20230212.mp3" length="121912332" /><pubDate>Sun, 12 Feb 2023  12:30:00 -0700</pubDate><itunes:duration>1:41:45</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>53) The Avatamsaka Sutra - Chapter 01 - 20230219</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/71dcc1-20230219.mp3" /><pubDate>Sun, 19 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>126:29</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>03) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20230217</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/bfdfcc-20230217.mp3" /><pubDate>Fri, 17 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>63:20</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>04) Chan Talk - 20230225</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ac7014-20230225.mp3" /><pubDate>Sat, 25 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>73:00</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>03) Chan Talk - 20230218</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/f82143-20230218.mp3" /><pubDate>Sat, 18 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>61:35</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>49) The 6th Patriarch Sutra - 20230225</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/ac6e61-20230225.mp3" /><pubDate>Sat, 25 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>134:45</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>05) Dharma Talk • GCR - 20230226</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/090e2f-20230226.mp3" /><pubDate>Sun, 26 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>30:20</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>04) Dharma Talk • Pureland - 20230219</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/e992a7-20230219.mp3" /><pubDate>Sun, 19 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>43:20</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>95) The Avatamsaka Sutra - Prologue - 20230217</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/4200eb-20230217.mp3" /><pubDate>Fri, 17 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>97:55</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>96) The Avatamsaka Sutra - Prologue - 20230224</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/5d0784-20230224.mp3" /><pubDate>Fri, 24 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>99:00</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>48) The 6th Patriarch Sutra - 20230218</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/2ab1f5-20230218.mp3" /><pubDate>Sat, 18 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>128:50</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>04) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20230224</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/876408-20230224.mp3" /><pubDate>Fri, 24 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>64:50</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>54) The Avatamsaka Sutra - Chapter 01 - 20230226</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/e2466d-20230226.mp3" /><pubDate>Sun, 26 Feb 2023  19:20:00 -0700</pubDate><itunes:duration>117:20</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>05) Chan Talk - 20230304</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/4c3dd3-20230304.mp3" /><pubDate>Sat, 04 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>65:30</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>05) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20230303</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/a87969-20230303.mp3" /><pubDate>Fri, 03 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>73:48</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>50) The 6th Patriarch Sutra - 20230304</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/a64a3f-20230304.mp3" /><pubDate>Sat, 04 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>127:50</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>97) The Avatamsaka Sutra - Prologue - 20230303</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/80c92c-20230303.mp3" /><pubDate>Fri, 03 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>90:15</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>55) The Avatamsaka Sutra - Chapter 01 - 20230305</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/25ca4b-20230305.mp3" /><pubDate>Sun, 05 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>131:25</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>06) Dharma Talk • GuanYin Birthday - 20230305</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/cb705f-20230305.mp3" /><pubDate>Sun, 05 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>30:10</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>07) Dharma Talk • Pureland - 20230312</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/972834-20230312.mp3" /><pubDate>Sun, 12 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>43:05</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>55) The Avatamsaka Sutra - Chapter 01 - 20230312</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/2d7930-20230312.mp3" /><pubDate>Sun, 12 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>134:25</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>06) Chan Talk for Asia 영화 선사의 아시아를 위한 참선 법문 - 20230310</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/51a14f-20230310.mp3" /><pubDate>Fri, 10 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>61:49</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>06) Chan Talk - 20230311</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/407889-20230311.mp3" /><pubDate>Sat, 11 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>64:15</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>98) The Avatamsaka Sutra - Prologue - 20230310</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/6f6ec0-20230310.mp3" /><pubDate>Fri, 10 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>100:30</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>51) The 6th Patriarch Sutra - 20230311</title><itunes:episodeType>full</itunes:episodeType><itunes:season>2023</itunes:season><description> </description><link>https://www.youtube.com/c/MasterYongHua</link><enclosure type="audio/mpeg" url="https://americanmahayana.blob.core.windows.net/podcast/EN/60190f-20230311.mp3" /><pubDate>Sat, 11 Mar 2023  19:20:00 -0700</pubDate><itunes:duration>129:55</itunes:duration><itunes:explicit>false</itunes:explicit></item>
   </channel>
 </rss>
+
+
+
+
 
