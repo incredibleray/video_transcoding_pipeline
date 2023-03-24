@@ -102,3 +102,11 @@ ffmpeg -y -i "en.mp4" -i chn.m4a -map 0:v -map 1:a -c copy chn.mp4
 ```
 ffmpeg -i mmbPlaque1.mp4 -i mmbPlaque2.mp4 -i mmbPlaque3.mp4 -filter_complex "[0:v:0][0:a:0][1:v:0][1:a:0][2:v:0][2:a:0]concat=n=3:v=1:a=1[outv][outa]" -map "[outv]" -map "[outa]" out1.mp4
 ```
+
+## add captions
+```
+ffmpeg -y -i mmbPlaque.mp4 -vf subtitles=mmbPlaque.srt mmbPlaqueIntroSubtitle.mp4
+
+ffmpeg -y -f lavfi -i color=size=1920x1080:rate=1:color=black -i dabeichan.mp3 -vf subtitles=dabeichan.srt:force_style='Fontsize=42' -shortest -c:v libx264 -c:a copy dabeichan.mp4
+```
+
