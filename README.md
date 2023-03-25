@@ -107,6 +107,7 @@ ffmpeg -i mmbPlaque1.mp4 -i mmbPlaque2.mp4 -i mmbPlaque3.mp4 -filter_complex "[0
 ```
 ffmpeg -y -i mmbPlaque.mp4 -vf subtitles=mmbPlaque.srt mmbPlaqueIntroSubtitle.mp4
 
-ffmpeg -y -f lavfi -i color=size=1920x1080:rate=1:color=black -i dabeichan.mp3 -vf subtitles=dabeichan.srt:force_style='Fontsize=42' -shortest -c:v libx264 -c:a copy dabeichan.mp4
+ffmpeg -y -f lavfi -i color=size=1920x1080:rate=3:color=black -i dabeichan.m4a -vf subtitles=dabeichan.srt:force_style='Fontname=KaiTi,Fontsize=42' -shortest -c:v libx264 -c:a copy dabeichan.mp4
 ```
 
+### seeking is inaccurate for some mp3 recordings of master.
