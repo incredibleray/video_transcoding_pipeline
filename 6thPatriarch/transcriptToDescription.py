@@ -11,7 +11,7 @@ FLAGS = flags.FLAGS
 
 flags.DEFINE_string('transcript', None, '')
 
-ytubeUrl="https://www.youtube.com/watch?v=CNcoZbGBk1s"
+ytubeUrl="https://www.youtube.com/watch?v=QitIlbgPvW4"
 desc='''00:00 | 🙏 Emitofuo 
 01:20 | Requesting the Dharma
 10:38 | Introduction
@@ -92,8 +92,8 @@ def main(argv):
     f=open("desc.html", "w", encoding="utf-8")
     for seg in segments:
         totalSeconds= seg[0].hour * 3600 + seg[0].minute * 60 + seg[0].second
-        url=ytubeUrl+"&list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&t="+str(totalSeconds)+"s"
-        l="<p><a href=\""+url+"\">"seg[0].isoformat()+"</a> |"+seg[1].replace("\n", " ")+"<br/></p>\n"
+
+        l="<p><a href=\"{}&list=PL0HTAkAoG7h_0T2Q3ZDghXeetqPkzovK7&t={}\">{}</a> | {}<br/></p>\n".format(ytubeUrl,totalSeconds, seg[0].isoformat(),seg[1].replace("\n", " "))
         f.write(l)
 
 if __name__ == '__main__':
