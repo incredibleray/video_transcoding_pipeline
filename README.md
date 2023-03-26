@@ -110,7 +110,7 @@ ffmpeg -y -i mmbPlaque.mp4 -vf subtitles=mmbPlaque.srt mmbPlaqueIntroSubtitle.mp
 ffmpeg -y -f lavfi -i color=size=1920x1080:rate=3:color=black -i dabeichan.m4a -vf subtitles=dabeichan.srt:force_style='Fontname=DFKai-SB,Fontsize=42' -shortest -c:v libx264 -c:a copy dabeichan.mp4
 
 
-ffmpeg -y -f lavfi -i color=size=1920x1080:rate=10:color=black -i puxian.mp3 -vf "drawtext=textfile=puxian.txt: font=DFKai-SB:x=200: y=h-80*t: fontsize=36:fontcolor=yellow@0.9:" -c:a copy puxian.mp4
+ffmpeg -y -f lavfi -i color=size=1920x1080:rate=10:color=black -vf "drawtext=textfile=puxian.txt: font=Kaiti:x=200: y=h-20*t: fontsize=64:fontcolor=yellow:" -t 10:00 puxian.mp4
 ```
 
 ### seeking is inaccurate for some mp3 recordings of master.

@@ -17,7 +17,7 @@ yǜ chéng jiù cǐ gōng dé mén yīng xiū shí zhǒng guǎng dà
 hèng yüàn hé děng wéi shí
  願。何 等 為 十？
 yì zhě lǐ jìng zhū fó èr zhě chēng zàn rǔ lái
-一 者、禮 敬 諸 佛。二 者、稱 讚 如 來。 Nhất giả, lễ kính chư Phật. Nhị giả, xưng tán Như Lai.
+一 者、禮 敬 諸 佛。二 者、稱 讚 如 來。 
 sān zhě guǎng xiū gòng yàng sì zhě chàn huǐ yè zhàng
 三 者、廣 修 供 養。四 者、懺 悔 業 障。 
 wǔ zhě suí xǐ gōng dé liù zhě qǐng zhuǎn fǎ lún
@@ -30,8 +30,9 @@ shàn cái bái yán dà shèng yǘn hé lǐ jìng nǎi zhì
 善 財 白 言：大 聖！云 何 禮 敬，乃 至
 huí xiàng
 迴 向？
+
 Lǐ Jìng Zhū Fó
-(1) 禮 敬 諸 佛 Lễ Kính Chư Phật
+(1) 禮 敬 諸 佛
 pǔ xián pú sà gào shàn cái yán shàn nán zi yán
 普 賢 菩 薩 告 善 財 言：善 男 子！言
 lǐ jìng zhū fó zhě suǒ yǒu jìn fǎ jiè xǖ kōng
@@ -41,7 +42,7 @@ jiè shí fāng sān shì yí qiè fó chà jí wéi chén shù
 zhū fó shì zūn wǒ yǐ pǔ xián hèng yüàn lì gù
 諸 佛 世 尊，我 以 普 賢 願 力 故 ，
 shēn xīn xìn jiě rú duì mù qián xī yǐ qīng jìng shēn
-深 心 信 解如 對 目 前，悉 以 清 淨 身
+深 心 信 解 如 對 目 前，悉 以 清 淨 身
 yǚ yì yè cháng xiū lǐ jìng yī yī fó suǒ jiē
 語 意 業，常 修 禮 敬。一 一 佛 所，皆
 xiàn bù kě shuō bù kě shuō fó chà jí wéi chén shù
@@ -63,148 +64,105 @@ gù wǒ cǐ lǐ jìng wú yǒu qióng jìn niàn niàn xiāng
 xǜ wú yǒu jiàn duàn shēn yǚ yì yè wú yǒu pí yàn
 續 無 有 間 斷，身 語 意 業 無 有 疲 厭。
 
+ Chēng Zàn Rú Lái
 (2) 稱 讚 如 來 
 fù cì shàn nán zǐ yán chēng zàn rú lái zhě suǒ
 復 次，善 男 子！言 稱 讚 如 來 者：所
 yǒu jìn fǎ jiè xǖ kōng jiè shí fāng sān shì yí qiè
 有 盡 法 界 虛 空 界，十 方 三 世 一 切
-hữu tận pháp giới, hư không giới, thập phương tam thế nhất thiết
 chà dù suǒ yǒu jí wēi yī yī chén zhōng jiē yǒu yí
 剎 ，所 有 極 微 一 一 塵 中，皆 有 一
-sát độ, sở hữu cực vi nhất nhất trần trung, giai hữu nhất
- Chēng Zàn Rú Lái
 qiè shì jiè jí wéi chén shù fó yī yī fó suǒ
 切 世 界 極 微 塵 數 佛；一 一 佛 所，
- thiết thế giới cực vi trần số Phật, nhất nhất Phật sở,
 jiē yǒu pú sà hǎi huì wéi rào wǒ dāng xī yǐ
 皆 有 菩 薩 海 會 圍 繞。我 當 悉 以
-giai hữu Bồ Tát hải hội vây nhiễu. Ngã đương tất dĩ
 shèn shēn shèng jiě xiàn qián zhī jiàn gè yǐ chū guò
 甚 深 勝 解 現 前 知 見， 各 以 出 過
-thậm thâm thắng giải hiện tiền tri kiến, các dĩ xuất quá
-
 biàn cái tiān nǚ wéi miào shé gēn yī yī shé gēn
 辯 才 天 女 微 妙 舌 根，一 一 舌 根，
-biện tài thiên nữ vi diệu thiệt căn, nhất nhất thiệt căn,
 chū wú jìn yīn shēng hǎi yī yī yīn shēng hǎi chū
 出 無 盡 音 聲 海 ，一 一 音 聲 海 出
 yí qiè yán cí hǎi chēng yáng zàn tàn yí qiè rú lái
 一 切 言 辭 海，稱 揚 讚 歎 一 切 如 來
 zhū gōng dé hǎi qióng wèi lái jì xiāng xǜ bú duàn
 諸 功 德 海，窮 未 來 際，相 續 不 斷，
-chư công đức hải, cùng vị lai tế, tương tục bất đoạn,
 jìn yǘ fǎ jiè wú bù zhōu biàn rú shì xǖ kōng jiè
 盡 於 法 界，無 不 周 遍。如 是 虛 空 界
-tận ư pháp giới, vô bất chu biến. Như thị hư không giới
 jìn zhòng shēng jiè jìn zhòng shēng yè jìn zhòng shēng fán
 盡，眾 生 界 盡，眾 生 業 盡，眾 生 煩
-tận, chúng sanh giới tận, chúng sanh nghiệp tận, chúng sanh phiền
 nǎo jìn wǒ zàn nǎi jìn ér xǖ kōng jiè nǎi zhì fán
 惱 盡，我 讚 乃 盡。而 虛 空 界 乃 至 煩
-
-
 nǎo wú yǒu jìn gù wǒ cǐ zàn tàn wú yǒu qióng jìn
 惱 無 有 盡 故，我 此 讚 歎 無 有 窮 盡。 
-não vô hữu tận cố, ngã thử tán thán vô hữu cùng tận,
 niàn niàn xiāng xǜ wú yǒu jiān duàn, shēn yǚ yì yè wú
 念 念 相 續 無 有 間 斷，身 語 意 業 無
-niệm niệm tương tục vô hữu gián đoạn, thân ngữ ý nghiệp, vô
-
-
 yǒu pí yàn
-有 疲厭。
-
+有 疲 厭。
 
 Guǎng Xiū Gòng Yàng
-(3) 廣 修 供 養 Quảng Tu Cúng Dường
+(3) 廣 修 供 養 
 fù cì shàn nán zǐ yán guǎng xiū gòng yàng zhě suǒ
 復 次，善 男 子！言 廣 修 供 養 者：所
-Phục thứ, thiện nam tử! Ngôn quảng tu cúng dường giả: sở
 yǒu jìn fǎ jiè xǖ kōng jiè shí fāng sān shì yí qiè
 有 盡 法 界、虛 空 界，十 方 三 世 一 切
-hữu tận pháp giới, hư không giới, thập phương tam thê ́ nhất thiết
 fó chà jí wéi chén zhōng yī yī gè yǒu yí qiè shì
 佛 剎 極 微 塵 中，一 一 各 有 一 切 世
-
 jiè jí wéi chén shù fó yī yī fó suǒ zhǒng zhǒng pú
 界 極 微 塵 數 佛，一 一 佛 所，種 種 菩
 sà hǎi huì wéi rào wǒ yǐ pǔ xián hèng yüàn lì gù
 薩 海 會 圍 繞。我 以 普 賢 願 力 故，
 qǐ shēn xìn jiě xiàn qián zhī jiàn xī yǐ shàng miào zhū
 起 深 信 解 現 前 知 見。悉 以 上 妙 諸
-khởi thâm tín giải hiện tiền tri kiến. Tất dĩ thượng diệu chư
 gòng yǎng jǜ ér wéi gòng yàng suǒ wèi huā yǘn mán
 供 養 具 而 為 供 養。所 謂：華 雲、鬘
-cúng dường cụ nhi vị cúng dường. Sở vị: hoa vân, man
 yǘn tiān yīn yüè yǘn tiān sǎn gài yǘn tiān yī fú
 雲、天 音 樂 雲、天 傘 蓋 雲、天 衣 服
-vân, thiên âm nhạc vân, thiên tán cái vân, thiên y phục
 yǘn tiān zhǒng zhǒng xiāng tú xiāng shāo xiāng mò xiāng rú
 雲 天 種 種 香、塗 香、燒 香、末 香 如
-vân thiên chủng chủng hương, đồ hương, thiêu hương, mạt hương, như
 shì děng yǘn yī yī liàng rú xǖ mí shān wáng rán
 是 等 雲，一 一 量 如 須 彌 山 王。然
-thị đẳng vân, nhất nhất lượng như Tu Di sơn vương. Nhiên
-
 zhǒng zhǒng dēng sū dēng yóu dēng zhū xiāng yóu dēng yī
 種 種 燈：酥 燈、油 燈，諸 香 油 燈，一
 yī dēng zhù rú xǖ mí shān yī yī dēng yóu rú dà
 一 燈 炷 如 須 彌 山，一 一 燈 油 如 大
 hǎi shuǐ yǐ rú shì děng zhū gòng yàng jǜ cháng wéi gòng
 海 水。以 如 是 等 諸 供 養 具，常 為 供
-hải thủy. Dĩ như thị đẳng chư cúng dường cụ, thường vi cúng
 yàng shàn nán zǐ zhū gòng yàng zhōng fǎ gòng yàng zuì
 養。善 男 子！諸 供 養 中，法 供 養 最！
-dường. Thiện nam tử! Chư cúng dường trung, pháp cúng dường tối!
 suǒ wèi rú shuō xiū xíng gòng yàng, lì yì zhòng shēng gòng
 所 謂 如 說 修 行 供 養、利 益 眾 生 供
-Sở vị như thuyết tu hành cúng dường, lợi ích chúng sanh cúng
 yàng shè shòu zhòng shēng gòng yàng dài zhòng shēng kǔ gòng
 養、攝 受 眾 生 供 養、代 眾 生 苦 供 養、
-dường, nhiếp thọ chúng sanh cúng dường, đại chúng sanh khổ cúng
 yàng qín xiū shàn gēn gòng yàng bù shě pú sǎ yè gòng yàng
 勤 修 善 根 供 養、不 捨 菩 薩 業 供 養 、
-dường, cần tu thiện căn cúng dường, bất xả Bồ Tát nghiệp cúng dường,
 yàng wú liàng gōng dé bǐ fǎ gòng yàng yí nián gōng dé
 養 無 量 功 德，比 法 供 養 一 念 功 德，
 bù lí pú tí xīn gòng yàng shàn nán zi rú qián gòng
 不 離 菩 提 心 供 養。善 男 子！如 前 供
-
 bǎi fēn bù jí yī qiān fēn bù jí yī bǎi qiān jǜ
 百 分 不 及 一，千 分 不 及 一，百 千 俱
-
-bách phần bất cập nhất, thiên phần bất cập nhất, bách thiên câu
 zhī nǎ yóu tā fēn jiā luó fēn suān fēn shù fēn
 胝 那 由 他 分、迦 羅 分、算 分、數 分、
-chi na do tha phần, ca la phần, toán phần, số phần,
 yǜ fēn yōu bō ní shā tuó fēn yì bù jí yī
-喻 分、優 波 尼 沙 陀 分，亦 不 及 一。 dụ phần, ưu ba ni sa đà phần, diệc bất cập nhất.
+喻 分、優 波 尼 沙 陀 分，亦 不 及 一。 
 jí yī hé yǐ gù yǐ zhū rú lái zūn zhòng fǎ gù yǐ rú
 何 以 故？以 諸 如 來 尊 重 法 故，以 如
-cập nhất. Hà dĩ cố? Dĩ chư Như Lai tôn trọng pháp cố, dĩ như
 shuō xíng chū shēng zhū fó gù ruò zhū pú sà xíng fǎ
 說 行 出 生 諸 佛 故；若 諸 菩 薩 行 法
-thuyết hành xuất sanh chư Phật cố; nhược chư Bồ Tát hành pháp
-
 gòng yàng zé dé chéng jiù gòng yàng rú lái rú shì xiū
 供 養，則 得 成 就 供 養 如 來，如 是 修
-cúng dường, tắc đắc thành tựu cúng dường Như Lai, như thị tu
+
 行 是 真 供 養 故。此 廣 大 最 勝 供 養，
-hành thị chân cúng dường cố. Thử quảng đại tối thắng cúng dường
 xǖ kōng jiè jìn zhòng shēng jiè jìn zhòng shēng yè jìn
 虛 空 界 盡，眾 生 界 盡，眾 生 業 盡，
-hư không giới tận, chúng sanh giới tận, chúng sanh nghiệp tận,
 zhòng shēng fán nǎo jìn wǒ gòng nǎi jìn ér xǖ kōng
 眾 生 煩 惱 盡，我 供 乃 盡；而 虛 空
-chúng sanh phiền não tận, ngã cúng nãi tận, nhi hư không
 jiè nǎi zhì fán nǎo bù kě jìn gù, wǒ cǐ gòng yàng
 界 乃 至 煩 惱 不 可 盡 故，我 此 供 養
-giới nãi chí phiền não bất khả tận cố, ngã thử cúng dường
 yì wú yǒu jìn niàn niàn xiāng xǜ wú yǒu jiàn duàn shēn
 亦 無 有 盡。念 念 相 續 無 有 間 斷，身
-diệc vô hữu tận, niệm niệm tương tục vô hữu gián đoạn, thân
 yǔ yì yè, wú yǒu pí yàn
-語 意 業，無 有 疲 厭。 ngữ ý nghiệp, vô hữu bì yểm.
+語 意 業，無 有 疲 厭。
 
 
 
@@ -214,458 +172,312 @@ fù cì shàn nán zǐ yán chàn huǐ yè zhàng zhě pú
 復 次，善 男 子！言 懺 悔 業 障 者 ：菩
 sà zì niàn wǒ yǘ guò qǜ wú shǐ jié zhōng yóu tān
 薩 自 念：我 於 過 去 無 始 劫 中，由 貪
-Tát tự niệm: ngã ư quá khứ vô thỉ kiếp trung, do tham
 chēn chī fā shēn kǒu yì zuò zhū è yè wú liàng wú
 瞋 癡 發 身 口 意，作 諸 惡 業 無 量 無
-sân si phát thân khẩu ý, tác chư ác nghiệp vô lượng vô
 biān ruò cǐ è yè yǒu tǐ xiàng zhě jìn xǖ kōng jiè
 邊。若 此 惡 業 有 體 相 者，盡 虛 空 界
-biên. Nhược thử ác nghiệp hữu thể tướng giả, tận hư không giới
 bù néng róng shòu wǒ jīn xī yǐ qīng jìng sān yè biàn
 不 能 容 受。我 今 悉 以 清 淨 三 業，遍
-bất năng dung thọ. Ngã kim tất dĩ thanh tịnh tam nghiệp, biến
 yǘ fǎ jiè jí wēi chén chà yí qiè zhū fó pú sà zhòng
 於 法 界 極 微 塵 剎 一 切 諸 佛 菩 薩 眾
-ư pháp giới cực vi trần sát nhất thiết chư Phật Bồ tát chúng sanh
-
 qián chéng xīn chàn huǐ hòu bú fù zào héng zhù jìng
 前，誠 心 懺 悔，後 不 復 造，恆 住 淨
 jiè yí qiè gōng dé rú shì xǖ kōng jiè jìn zhòng shēng
 戒 一 切 功 德。如 是 虛 空 界 盡，眾 生
-giới nhất thiết công đức. Như thị hư không giới tận, chúng sanh
 jiè jìn zhòng shēng yè jìn zhòng shēng fán nǎo jìn wǒ
 界 盡，眾 生 業 盡，眾 生 煩 惱 盡，我
-giới tận, chúng sanh nghiệp tận, chúng sanh phiền não tận, ngã
 chàn nǎi jìn ér xǖ kōng jiè nǎi zhì zhòng shēng fán nǎo
 懺 乃 盡。而 虛 空 界 乃 至 眾 生 煩 惱
-sám nãi tận. nhi hư không giới nải chí chúng sanh phiền não
 bù kě jìn gù wǒ cǐ chàn huǐ wú yǒu qióng jìn niàn
 不 可 盡 故，我 此 懺 悔 無 有 窮 盡。念
-bất khả tận cố, ngã thử sám hối vô hữu cùng tận, niệm
 niàn xiāng xǜ wú yǒu jiàn duàn shēn yǚ yì yè wú yǒu
 念 相 續 無 有 間 斷，身 語 意 業 無 有
-niệm tương tục, vô hữu gián đoạn, thân ngữ ý nghiệp vô hữu
 pí yàn
 疲 厭。
 
  Suí Xǐ Gōng Dé
-5) 隨 喜 功 德 Tùy Hỉ Công Đức
-
+5) 隨 喜 功 德 
  fù cì shàn nán zǐ yán suí xǐ gōng dé zhě
 復 次，善 男 子！言 隨 喜 功 德 者：所
-Phục thứ, thiện nam tử! Ngôn tùy hỉ công đức giả.
 suǒ yǒu jìn fǎ jiè xǖ kōng jiè shí fāng sān shì yí qiè
 有 盡 法 界 虛 空 界，十 方 三 世 一 切
-Sở hữu tận pháp giới, hư không giới, thập phương tam thế nhất thiết
 fó chà jí wéi chén shù zhū fó rú lái cóng chū fā
 佛 剎 極 微 塵 數 諸 佛 如 來，從 初 發
-Phật sát cực vi trần số chư Phật Như Lai, tùng sơ phát
 xīn wèi yí qiè zhì qín xiū fú jǜ bù xí shēn
 心，為 一 切 智 勤 修 福 聚，不 惜 身
-tâm, vi nhất thiết trí cần tu phước tụ, bất tích thân
 mìng jīng bù kě shuō bù kě shuō fó chà jí wéi chén
 命；經 不 可 說 不 可 說 佛 剎 極 微 塵
-mạng; kinh bất khả thuyết bất khả thuyết Phật sát cực vi trần
 shù jié yī yì jié zhōng shè bù kě shuō bù kě shuō
 數 劫，一 一 劫 中，捨 不 可 說 不 可 說
-
 fó chà jí wéi chén shù tóu mù shǒu zú rú shì yí 
 佛 剎 極 微 塵 數 頭 目 手 足。如 是 一
-Phật sát cực vi trần số đầu mục thủ túc. Như thị nhất
 qiè nán xíng kǔ hèng yüán mǎn zhǒng zhǒng bō luó mì mén
 切 難 行 苦 ，圓 滿 種 種 波 羅 蜜 門，
-thiết nan hành khổ hạnh, viên mãn chủng chủng ba la mật môn,
 zhèng rù zhǒng zhǒng pú sà zhì dì chéng jiù zhū fó wú
 證 入 種 種 菩 薩 智 地，成 就 諸 佛 無
-chứng nhập chủng chủng Bồ tát trí địa, thành tựu chư Phật Vô
 shàng pú tí jí bō niè pán fēn bù shè lì suǒ
 上 菩 提，及 般 涅 槃 分 布 舍 利；所
-Thượng Bồ Đề, cập Bát Niết Bàn phân bố xá lợi; sở
 suǒ yǒu shàn gēn wǒ jiē suí xǐ jí bǐ shí fāng
 所 有 善 根，我 皆 隨 喜。及 彼 十 方
-sở hữu thiện căn, ngã giai tùy hỉ. Cập bỉ thập phương
 yí qiè shì jiè liù qù sì shēng yí qiè zhǒng lèi suǒ
 一 切 世 界，六 趣四 生 一 切 種 類 所
-nhất thiết thế giới, lục thú, tứ sanh nhất thiết chủng loại
 suǒ yǒu gōng dé nǎi zhì yì chén wǒ jiē suí xǐ shí
 所 有 功 德，乃 至 一 塵，我 皆 隨 喜。十
-sở hữu công đức, nãi chí nhất trần, ngã giai tùy hỉ. Thập
-
-
-
 fāng sān shì yí qiè shēng wén jí bì zhī fó yǒu xüé
 方 三 世 一 切 聲 聞 及 辟 支 佛，有 學 
 wú xüé suǒ yǒu gōng dé wǒ jiē suí xǐ yí qiè
 無 學 所 有 功 德，我 皆 隨 喜。一 切
-vô học sở hữu công đức, ngã giai tùy hỉ. Nhất thiết
 pú sà suǒ xiū wú liáng nán xíng kǔ hèng zhì qiú wú
 菩 薩 所 修 無 量 難 行 苦 ，志 求 無
-Bồ Tát sở tu vô lượng nan hành khổ hạnh, chí cầu Vô
 shàng zhèng děng pú tí guǎng dà gōng dé wǒ jiē suí xǐ
-上 正 等 菩 提 廣 大 功 德，我 皆 隨 喜。 Thượng Chánh Đẳng Bồ Đề quảng đại công đức, ngã giai tùy hỉ.
+上 正 等 菩 提 廣 大 功 德，我 皆 隨 喜。
 rú shì xǖ kōng jiè jìn zhòng shēng jiè jìn zhòng shēng yè
 如 是 虛 空 界 盡，眾 生 界 盡，眾 生 業
-Như thị hư không giới tận, chúng sanh giới tận, chúng sanh nghiệp
 jìn zhòng shēng fán nǎo jìn wǒ cǐ suí xǐ wú yǒu qióng
 盡，眾 生 煩 惱 盡，我 此 隨 喜 無 有 窮
- tận, chúng sanh phiền não tận, ngã thử tùy hỉ vô hữu cùng
 jìn niàn niàn xiāng xǜ wú yǒu jiàn duàn shēn yǚ yì yè
 盡。念 念 相 續 無 有 間 斷，身 語 意 業
-
 wú yǒu pí yàn
-無 有 疲 厭。 vô hữu bì yểm.
+無 有 疲 厭。
+
  Qǐng Zhuǎn Fǎ Lún
-6) 請 轉 法 輪 Thỉnh Chuyển Pháp Luân
+6) 請 轉 法 輪
 fù cì shàn nán zǐ yán qǐng zhuǎn fǎ lún zhě suǒ
 復 次，善 男 子！言 請 轉 法 輪 者：所
-Phục thứ, thiện nam tử! Ngôn thỉnh chuyển pháp luân giả. Sở
 yǒu jìn fǎ jiè xū kōng jiè shí fāng sān shì yī qiē
 有 盡 法 界 虛 空 界，十 方 三 世 一 切
-hữu tận pháp giới, hư không giới, thập phương tam thế nhất thiết
 fó chà jí wēi chén zhōng yī yī gè yǒu bù kě shuō
 佛 剎 極 微 塵 中，一 一 各 有 不 可 說
-Phật sát cực vi trần trung, nhất nhất các hữu bất khả thuyết
 bù kě shuō fó chà jí wéi chén shù guǎng dà fó chà
 不 可 說 佛 剎 極 微 塵 數 廣 大 佛 剎；
-bất khả thuyết Phật sát cực vi trần số quảng đại Phật sát;
 yī yī chà zhōng niàn niàn yǒu bù kě shuō bù kě shuō
 一 一 剎 中，念 念 有 不 可 說 不 可 說
-
-
 fó chà jí wéi chén shù yí qiè zhū fó chéng děng zhèng
 佛 剎 極 微 塵 數 一 切 諸 佛 成 等 正
 jüé yí qiè pú sà hǎi huì wéi rào ér wǒ xī yǐ
 覺，一 切 菩 薩 海 會 圍 繞。而 我 悉 以
-Giác, nhất nhất thiết Bồ Tát hải hội vi nhiễu. Nhi ngã tất dĩ
 shēn kǒu yì yè zhǒng zhǒng fāng biàn yīn qín qüàn qǐng
 身 口 意 業，種 種 方 便，殷 勤 勸 請，
-thân khẩu ý nghiệp, chủng chủng phương tiện, ân cần khuyến thỉnh,
 zhuǎn miào fǎ lún rú shì xǖ kōng jiè jìn zhòng shēng jiè
 轉 妙 法 輪。如 是 虛 空 界 盡，眾 生 界
-chuyển diệu pháp luân. Như thị hư không giới tận, chúng sanh giới
 jìn zhòng shēng yè jìn zhòng shēng fán nǎo jìn wǒ cháng
 盡，眾 生 業 盡，眾 生 煩 惱 盡，我 常
-tận, chúng sanh nghiệp tận, chúng sanh phiền não tận, ngã thường
 qüàn qǐng yí qiè zhū fó zhuǎn zhèng fǎ lún wú yǒu qióng
 勸 請 一 切 諸 佛 轉 正 法 輪，無 有 窮
-khuyến thỉnh nhất thiết chư Phật chuyển Chánh Pháp Luân, vô hữu cùng
 jìn niàn niàn xiāng xǜ wú yǒu jiàn duàn shēn yǚ yì
 盡。念 念 相 續 無 有 間 斷，身 語 意
-
-
 yè wú yǒu pí yàn 
-業 無 有 疲 厭。 nghiệp vô hữu bì yểm.
+業 無 有 疲 厭。
+
  Qǐng Fó Zhù Shì
 7) 請 佛 住 世
- Thỉnh Phật Trụ Thế
 fù cì shàn nán zǐ yán qǐng fó zhù shì zhě suǒ
 復 次，善 男 子！言 請 佛 住 世 者：所
-Phục thứ, thiện nam tử! Ngôn thỉnh Phật trụ thế giả. Sở
 yǒu jìn fǎ jiè xǖ kōng jiè shí fāng sān shì yí qiè
 有 盡 法 界 虛 空 界，十 方 三 世 一 切
-hữu tận pháp giới, hư không giới, thập phương tam thế nhất thiết
 fó chà jí wéi chén shù zhū fó rú lái jiāng yǜ shì
 佛 剎 極 微 塵 數 諸 佛 如 來，將 欲 示
-Phật sát cực vi trần số chư Phật Như Lai, tương dục thị
 xiàn bō niè pán zhě jí zhū pú sà shēng wén yüán
 現 般 涅 槃 者；及 諸 菩 薩、聲 聞、緣
-hiện Bát Niết Bàn giả; cập chư Bồ Tát, Thanh văn, Duyên
 jüé yǒu xüé wú xüé nǎi zhì yí qiè zhū shàn zhī shì
 覺 有 學 無 學，乃 至 一 切 諸 善 知 識，
- giác, hữu học, vô học, nãi chí nhất thiết chư thiện tri thức,
-
 wǒ xī qüàn qǐng mò rù niè pán jīng yǘ yí qiè fó
 我 悉 勸 請 莫 入 涅 槃，經 於 一 切 佛
- ngã tất khuyến thỉnh mạc nhập Niết Bàn, kinh ư nhất thiết Phật
 chà jí wéi chén shù jié wèi yǜ lì lè yí qiè zhòng
 剎 極 微 塵 數 劫，為 欲 利 樂 一 切 眾
-sát cực vi trần số kiếp, vi dục lợi ích nhất thiết chúng
 shēng rú shì xǖ kōng jiè jìn zhòng shēng jiè jìn zhòng
 生。如 是 虛 空 界 盡，眾 生 界 盡，眾
-sanh. Như thị hư không giới tận, chúng sanh giới tận, chúng
 shēng yè jìn zhòng shēng fán nǎo jìn wǒ cǐ qüàn qǐng wú
 生 業 盡，眾 生 煩 惱 盡，我 此 勸 請 無
-sanh nghiệp tận, chúng sanh phiền não tận, ngã thử khuyến thỉnh vô
 yǒu qióng jìn niàn niàn xiāng xǜ wú yǒu jiàn duàn shēn yǚ
 有 窮 盡。念 念 相 續 無 有 間 斷，身 語
-hữu cùng tận, niệm niệm tương tục vô hữu gián đoạn, thân ngữ
 yì yè wú yǒu pí yàn
-意 業 無 有 疲 厭。 ý nghiệp, vô hữu bì yểm.
- Cháng Suí Fó Xüé
-8) 常 隨 佛 學 Thường Tùy Phật Học
+意 業 無 有 疲 厭。
 
+ Cháng Suí Fó Xüé
+8) 常 隨 佛 學
 fù cì shàn nán zǐ yán cháng suí fó xüé zhě rú
 復 次，善 男 子！言 常 隨 佛 學 者：如
-Phục thứ, thiện nam tử! Ngôn thường tùy Phật học giả. Như
 cǐ suō pó shì jiè pí lú zhē nà rú lái cóng chū
 此 娑 婆 世 界 毘 盧 遮 那 如 來，從 初
-thử Ta Bà thế giới Tỳ Lô Giá Na Như Lai, tùng sơ
 fā xīn jīng jìn bú tuì yǐ bù kě shuō bù kě shuō
 發 心 精 進 不 退，以 不 可 說 不 可 說
-phát tâm tinh tấn bất thối, dĩ bất khả thuyết bất khả thuyết
 shēn mìng ér wéi bù shī bō pí wéi zhǐ xī gǔ wéi
 身 命 而 為 布 施；剝 皮 為 紙，析 骨 為
-thân mạng nhi vi bố thí; bác bì vi chỉ, tích cốt vi
 bǐ cì xüě wéi mò shū xiě jīng diǎn jī rú xǖ
 筆，刺 血 為 墨，書 寫 經 典 積 如 須
-bút, thích huyết vi mặc, thư tả kinh điển tích như Tu
 mí wéi zhòng fǎ gù bù xí shēn mìng hé kuàng wáng
 彌。為 重 法 故，不 惜 身 命，何 況 王
-Di. Vị trọng Pháp cố bất tích thân mạng, hà huống vương
 wèi chéng yì jǜ luò gōng diàn yüán lín yí qiè
 位、城 邑、聚 落、宮 殿、園 林 一 切
-vị, thành ấp, tụ lạc, cung điện, viên lâm nhất thiết
-
 suǒ yǒu jí yǘ zhǒng zhǒng nán xíng kǔ hèng nǎi zhì shù
 所 有，及 餘 種 種 難 行 苦 。乃 至 樹
-sở hữu, cập dư chủng chủng nan hành khổ hạnh. Nãi chí thọ
 xià chéng dà pú tí shì zhǒng zhǒng shén shén tōng qǐ zhǒng zhǒng
 下 成 大 菩 提：示 種 種 神 通，起 種 種
-hạ thành đại Bồ Đề: thị chủng chủng thần thông, khởi chủng chủng
 biàn huà xiàn zhǒng zhǒng fó shēn chǔ zhǒng zhǒng zhòng huì
 變 化，現 種 種 佛 身，處 種 種 眾 會：
-biến hóa, hiện chủng chủng Phật thân, xứ chủng chủng chúng hội:
 huò chǔ yí qiè zhū dà pú sà zhòng huì dào chǎng huò
 或 處 一 切 諸 大 菩 薩 眾 會 道 場，或
-hoặc xứ nhất thiết chư đại Bồ Tát chúng hội đạo tràng, hoặc
 chǔ shēng wén jí bì zhī zhòng huì dào chǎng huò chǔ
-處聲 聞 及 辟 支 佛 眾 會 道 場，或 處
-xứ Thanh văn cập Bích Chi Phật chúng hội đạo tràng, hoặc xứ
+處 聲 聞 及 辟 支 佛 眾 會 道 場，或 處
 zhuǎn lún shèng wáng xiǎo wáng jüàn shǔ zhòng huì dào chǎng huò
 轉 輪 聖 王小 王 眷 屬 眾 會 道 場，或
-Chuyển luân thánh vương, tiểu vương quyến thuộc chúng hội đạo tràng, hoặc
 chǔ chà lì jí pó luó mén zhǎng zhě jǖ shì zhòng huì
 處 剎 利 及 婆 羅 門、長 者、居 士 眾 會
-xứ sát lợi cập bà la môn, trưởng lão, cư sĩ chúng hội
-
 dào chǎng nǎi zhì huò chǔ tiān lóng bā bù rén fēi rén
 道 場，乃 至 或 處 天 龍 八 部、人 非人
-đạo tràng, nãi chí hoặc xứ thiên long bát bộ, nhân phi nhân
 děng zhòng huì dào chǎng chǔ yǘ rú shì zhǒng zhǒng zhòng huì
 等 眾 會 道 場。處 於 如 是 種 種 眾 會，
-đẳng chúng hội đạo tràng. Xứ ư như thị chủng chủng chúng hội,
 yǐ yüán mǎn yīn rú dà léi zhèn suí qí yào yǜ
 以 圓 滿 音，如 大 雷 震，隨 其 樂 欲，
-dĩ viên mãn âm, như đại lôi chấn, tuỳ kỳ nhạo dục,
 chéng shóu zhòng shēng nǎi zhì shì xiàn rù yǘ niè pán rú
 成 熟 眾 生，乃 至 示 現 入 於 涅 槃。如
-thành thục chúng sanh, nãi chí thị hiện nhập ư Niết Bàn. Như
 shì yí qiè wǒ jiē suí xüé rú jīn shì zūn pí lú
 是 一 切 ，我 皆 隨 學。如 今 世 尊 毘 盧
-thị nhất thiết, ngã giai tuỳ học. Như kim Thế Tôn Tỳ Lô
 zhē nà rú shì jìn fǎ jiè xǖ kōng jiè shí fāng sān
 遮 那，如 是 盡 法 界、虛 空 界，十 方
-Giá Na, như thị tận pháp giới, hư không giới, thập phương tam
 shì yí qiè fó chà suǒ yǒu chén zhōng yí qiè rú
 三 世 一 切 佛 剎，所 有 塵 中 一 切 如
-thế nhất thiết Phật sát, sở hữu trần trung nhất thiết Như
-
 lái jiē yì rú shì yǘ niàn niàn zhōng wǒ jiē suí xüé
-來，皆 亦 如 是；於 念 念 中，我 皆 學。 Lai giai diệc như thị; ư niệm niệm trung, ngã giai tùy học.
+來，皆 亦 如 是；於 念 念 中，我 皆 學。
  rú shì xǖ kōng jiè jìn zhòng shēng jiè jìn zhòng shēng
 隨 如 是 虛 空 界 盡，眾 生 界 盡，眾 生
-Như thị hư không giới tận, chúng sanh giới tận, chúng sanh
 yè jìn zhòng shēng fán nǎo jìn wǒ cǐ suí xué wú yǒu
 業 盡，眾 生 煩 惱 盡，我 此 隨 學 無 有
-nghiệp tận, chúng sanh phiền não tận, ngã thử tùy học vô hữu
 qióng jìn niàn niàn xiāng xǜ wú yǒu jiàn duàn shēn yǚ yì
 窮 盡。念 念 相 續 無 有 間 斷，身 語 意
-cùng tận, niệm niệm tương tục vô hữu gián đoạn, thân ngữ ý
 yè wú yǒu pí yàn
-業 無 有 疲 厭。 nghiệp vô hữu bì yểm.
- Héng Shùn Zhòng Shēng
+業 無 有 疲 厭。
 
-9) 恆 順 眾 生 Hằng Thuận Chúng Sanh
+ Héng Shùn Zhòng Shēng
+9) 恆 順 眾 生
 fù cì shàn nán zǐ yán héng shùn zhòng shēng zhě wèi
 復 次，善 男 子！言 恆 順 眾 生 者。謂
-Phục thứ, thiện nam tử! Ngôn hằng thuận chúng sanh giả. Vị
-
 jìn fǎ jiè xǖ kōng jiè shí fāng chà hǎi suǒ yǒu zhòng
 盡 法 界 虛 空 界，十 方 剎 海 所 有 眾
-tận pháp giới, hư không giới, thập phương sát hải sở hữu chúng
 shēng zhǒng zhǒng cī bié suǒ wèi luǎn shēng tāi shēng shī
 生 種 種 差 別，所 謂：卵 生、胎 生、濕
-sanh chủng chủng sai biệt, sở vị noãn sanh, thai sinh, thấp
 shī shēng huà shēng huò yǒu yī yǘ dì shuǐ huǒ fēng ér shēng
 生、化 生，或 有 依 於 地 水 火 風 而 生
-sanh, hóa sanh, hoặc hữu y ư địa, thủy, hỏa, phong nhi sanh
 zhù zhě huò yǒu yī kōng jí zhū huì mù ér shēng zhù
 住 者，或 有 依 空 及 諸 卉 木 而 生 住
-trụ giả, hoặc hữu y không cập chư hủy mộc nhi sanh trụ
 zhě zhǒng zhǒng shēng lèi zhǒng zhǒng sè shēn zhǒng zhǒng xíng
 者，種 種 生 類、種 種 色 身、種 種 形
-giả, chủng chủng sanh loại, chủng chủng sắc thân, chủng chủng hình
 zhuàng zhǒng zhǒng xiàng mào zhǒng zhǒng shòu liàng zhǒng zhǒng zú
 狀、種 種 相 貌、種 種 壽 量、種 種 族
-trạng, chủng chủng tướng mạo, chủng chủng thọ lượng, chủng chủng tộc
 lèi zhǒng zhǒng míng hào zhǒng zhǒng xīn xìng zhǒng zhǒng zhī
 類、種 種 名 號、種 種 心 性、種 種 知
-loại, chủng chủng danh hiệu, chủng chủng tâm tính, chủng chủng tri
-
 jiàn zhǒng zhǒng yǜ yào zhǒng zhǒng yì hèng zhǒng zhǒng wēi
 見、 種 種 欲 樂、種 種 意 行、種 種 威
-kiến, chủng chủng dục nhạo, chủng chủng ý hành, chủng chủng oai
 yí zhǒng zhǒng yī fú zhǒng zhǒng yǐn shí chǔ yú zhǒng
 儀、種 種 衣 服、種 種 飲 食，處 於 種
-nghi, chủng chủng y phục, chủng chủng ẩm thực, xứ ư chủng
 zhǒng cūn yíng jǜ luò chéng yì gōng diàn nǎi zhì yí
  種 村 營 聚 落、城 邑 宮 殿，乃 至 一
- chủng thôn doanh tụ lạc, thành ấp cung điện, nãi chí nhất
 qiè tiān lóng bā bù rén fēi rén děng wú zú èr
 切 天 龍 八 部、人 非 人 等，無 足、二
-thiết thiên long bát bộ, nhân phi nhân đẳng, vô túc, nhị
 zú sì zú duō zú yǒu sè wú sè yǒu xiǎng
 足、四 足、多 足、有 色、無 色、有 想、
-túc, tứ túc, đa túc, hữu sắc, vô sắc, hữu tưởng,
 wú xiǎng fēi yǒu xiǎng fēi wú xiǎng rú shì děng lèi
 無 想、非 有 想、非 無 想。如 是 等 類，
-vô tưởng, phi hữu tưởng, phi vô tưởng. Như thị đẳng loại,
 wǒ jiē yǘ bǐ suí shùn ér zhuǎn zhǒng zhǒng chéng shì
 我 皆 於 彼 隨 順 而 轉。種 種 承 事、
-ngã giai ư bỉ tùy thuận nhi chuyển. Chủng chủng thừa sự,
-
 zhǒng zhǒng gòng yàng rú jìng fù mǔ rú fèng shī zhǎng
 種 種 供 養，如 敬 父 母，如 奉 師 長
-chủng chủng cúng dường, như kính phu ̣ mẫu, như phụng sư trưởng
 jí ā luó hàn nǎi zhì rú lái děng wú yǒu yì
-及 阿 羅 漢，乃 至 如 來，等 無 有 異。 cập A la hán, nãi chí Như Lai, đẳng vô hữu dị.
+及 阿 羅 漢，乃 至 如 來，等 無 有 異。 
 yǘ zhū bìng kǔ wéi zuò liáng yī yǘ shī dào zhě
 於 諸 病 苦，為 作 良 醫；於 失 道 者
-Ư chư bịnh khổ, vi tác lương y; ư thất đạo giả,
 shì qí zhèng lù yǘ jǐng yè zhōng wéi zuò guāng míng yǘ
 示 其 正 路，於 闇 夜 中 為 作 光 明；於
-thị kỳ chánh lộ; ư ám dạ trung, vi tác quang minh; ư
 pín qióng zhě lìng dé fú cáng pú sà rú shì píng
 貧 窮 者，令 得 伏 藏。菩 薩 如 是 平
-bần cùng giả, linh đắc phục tàng. Bồ Tát như thị bình
 děng ráo yì yí qiè zhòng shēng hé yǐ gù pú sà ruò
 等 饒 益 一 切 眾 生。何 以 故？菩 薩 若
-đẳng nhiêu ích nhất thiết chúng sanh. Hà dĩ cố? Bồ Tát nhược
 néng suí shùn zhòng shēng zé wéi suí shùn gòng yàng zhū fó
 能 隨 順 眾 生，則 為 隨 順 供 養 諸 佛；
-năng tùy thuận chúng sanh, tắc vi tùy thuận cúng dường chư Phật;
-
 ruò yǘ zhòng shēng zūn zhòng chéng shì zé wéi zūn zhòng chéng
 若 於 眾 生 尊 重 承 事，則 為 尊 重 承
-nhược ư chúng sanh tôn trọng thừa sự, tắc vi tôn trọng thừa
 shì rú lái ruò lìng zhòng shēng shēng huān xǐ zhě zé lìng
 事 如 來；若 令 眾 生 生 歡 喜 者，則 令
-sự Như Lai; nhược linh chúng sanh sanh hoan hỉ giả, tắc linh
 yí qiè rú lái huān xǐ hé yǐ gù zhū fó rú
 一 切 如 來 歡 喜。何 以 故？諸 佛 如 來
-nhất thiết Như Lai hoan hỉ. Hà dĩ cố? Chư Phật Như
 lái yǐ dà bēi xīn ér wéi tǐ gù yīn yǘ zhòng shēng ér
 以 大 悲 心 而 為 體 故，因 於 眾 生 而
-Lai, dĩ đại bi tâm nhi vi thể cố. Nhân ư chúng sanh nhi
 qǐ dà bēi yīn yǘ dà bēi shēng pú tí xīn yīn pú
 起 大 悲，因 於 大 悲 生 菩 提 心，因 菩
-khởi đại bi nhân ư đại bi sanh Bồ Đề tâm, nhân Bồ
 tí xīn chéng děng zhèng jüé pì rú kuàng yě shā qì zhī
 提 心 成 等 正 覺。譬 如 曠 野 沙 磧 之
-Đề tâm thành Đẳng Chánh Giác. Thí như khoáng dã sa thích chi
 zhōng yǒu dà shù wáng ruò gēn dé shuǐ zhī yè huā
 中，有 大 樹 王，若 根 得 水，枝 葉 華
-trung, hữu đại thọ vương, nhược căn đắc thủy, chi diệp hoa
-
 guǒ xī jiē fán mào shēng sǐ kuàng yě pú tí shù wáng 
 果 悉 皆 繁 茂。生 死 曠 野 菩 提 樹 王，
-quả tất giai phồn mậu. Sanh tử khoáng dã Bồ Đề thọ vương,
 yì fù rú shì yí qiè zhòng shēng ér wéi shù gēn zhū
 亦 復 如 是，一 切 眾 生 而 為 樹 根，諸
-diệc phục như thị. nhất thiết chúng sanh nhi vi thọ căn, chư
 fó pú sà ér wéi huā guǒ yǐ dà bēi shuǐ ráo yì
 佛 菩 薩 而 為 華 果，以 大 悲 水 饒 益
-Phật Bồ Tát nhi vi hoa quả, dĩ đại bi thủy nhiêu ích
 zhòng shēng zé néng chéng jiù zhū fó pú sà zhì huì huā
 眾 生，則 能 成 就 諸 佛 菩 薩 智 慧 華
-chúng sanh, tắc năng thành tựu chư Phật Bồ Tát trí huệ hoa
 guǒ hé yǐ gù ruò zhū pú sà yǐ dà bēi shuǐ ráo
 果。何 以 故？若 諸 菩 薩 以 大 悲 水 饒
-quả. Hà dĩ cố? Nhược chư Bồ Tát dĩ đại bi thủy nhiêu
 yì zhòng shēng zé néng chéng jiù ā nòu duō luó sān miǎo
 益 眾 生，則 能 成 就 阿 耨 多 羅 三 藐
-ích chúng sanh, tắc năng thành tựu A nậu đa la tam miệu
 sān pú tí gù shì gù pú tí shǔ yǘ zhòng shēng ruò
 三 菩 提 故。是 故 菩 提 屬 於 眾 生，若
-tam bồ đề cố. Thị cố Bồ Đề thuộc ư chúng sanh, nhược
-
 wú zhòng shēng yí qiè pú sà zhōng bù néng chéng wú shàng
 無 眾 生，一 切 菩 薩 終 不 能 成 無 上
-vô chúng sanh, nhất thiết Bồ Tát chung bất năng thành Vô Thượng
 zhèng jüé shàn nán zǐ rǔ yǘ cǐ yì yīng rú shì
 正 覺。善 男 子！汝 於 此 義，應 如 是
-Chánh Giác. Thiện nam tử! Nhữ ư thử nghĩa, ưng như thị
 jiě yǐ yǘ zhòng shēng xīn píng děng gù zé néng chéng
 解，以 於 眾 生 心 平 等 故，則 能 成
-giải, dĩ ư chúng sanh tâm bình đẳng cố, tắc năng thành
 jiù yüán mǎn dà bēi yǐ dà bēi xīn suí zhòng shēng gù
 就 圓 滿 大 悲；以 大 悲 心 隨 眾 生 故，
-tựu viên mãn đại bi; dĩ đại bi tâm tùy chúng sanh cố,
 zé néng chéng jiù gòng yàng rú lái pú sà rú shì suí
 則 能 成 就 供 養 如 來。菩 薩 如 是 隨
-tắc năng thành tựu cúng dường Như Lai. Bồ Tát như thị tùy
 shùn zhòng shēng xǖ kōng jiè jìn zhòng shēng jiè jìn zhòng
 順 眾 生，虛 空 界 盡，眾 生 界 盡，眾
-thuận chúng sanh, hư không giới tận, chúng sanh giới tận, chúng
 shēng yè jìn zhòng shēng fán nǎo jìn wǒ cǐ suí shùn
 生 業 盡，眾 生 煩 惱 盡，我 此 隨 順
-
 wú yǒu qióng jìn niàn niàn xiāng xǜ wú yǒu jiān duàn shēn
 無 有 窮 盡。念 念 相 續 無 有 間 斷，身
-vô hữu cùng tận, niệm niệm tương tục vô hữu gián đoạn,
 yǚ yì yè wú yǒu pí yàn
-意 語 業 無 有 疲 厭。 thân ngữ ý nghiệp vô hữu bì yểm.
- 		 Pǔ Jiē Huí Xiàng
-10) 普 皆 迴 向 	 	 Phổ Giai Hồi Hướng
+意 語 業 無 有 疲 厭。
+
+Pǔ Jiē Huí Xiàng
+10) 普 皆 迴 向 	 	
 fù cì shàn nán zǐ yán pǔ jiē huí xiàng zhě cóng
 復 次，善 男 子！言 普 皆 迴 向 者：從
-Phục thứ, thiện nam tử! Ngôn phổ giai hồi hướng giả. Tòng
 chū lǐ bài nǎi zhì suí shùn suǒ yǒu gōng dé jiē xī huí xiàng jiē xī
 初 禮 拜 乃 至 隨 順 所 有 功 德，皆 悉
-sơ lễ bái, nãi chí tuỳ thuận sở hữu công đức, giai tất
 huí xiàng jìn fǎ jiè xǖ kōng jiè yí qiè zhòng shēng yüàn
 迴 向 盡 法 界 虛 空 界 一 切 眾 生。願
-hồi hướng tận pháp giới hư không giới nhất thiết chúng sanh. Nguyện
 lìng zhòng shēng cháng dé ān lè wú zhū bìng kǔ yǜ
 令 眾 生，常 得 安 樂，無 諸 病 苦；欲
-
 xíng è fǎ jiē xī bù chéng suǒ xiū shàn yè jiē 
 行 惡 法，皆 悉 不 成，所 修 善 業，皆
-hành ác pháp, giai tất bất thành, sở tu thiện nghiệp, giai
 sù chéng jiù guān bì yí qiè zhū è qǜ mén kāi shì
 速 成 就；關 閉 一 切 諸 惡 趣 門，開 示
-tốc thành tựu. Quan bế nhất thiết ác thú môn, khai thi
 rén tiān niè pán zhèng lù ruò zhū zhòng shēng yīn qí jī
 人 天 涅 槃 正 路。若 諸 眾 生，因 其 積
-̣nhân thiên Niết Bàn chánh lộ. Nhược chư chúng sanh, nhân kỳ tích
 jí zhū è yè gù suǒ gǎn yí qiè jí zhòng kǔ guǒ
 集 諸 惡 業 故，所 感 一 切 極 重 苦 果，
-tập chư ác nghiệp cố, sở cảm nhất thiết cực trần khổ quả,
 wǒ jiē dài shòu lìng bǐ zhòng shēng xī dé jiě tuō
 我 皆 代 受，令 彼 眾 生，悉 得 解 脫，
-ngã giai đại thọ; linh bỉ chúng sanh, tất đắc giải thoát,
 jiù jìng chéng jiù wú shàng pú tí pú sà rú shì suǒ
 究 竟 成 就 無 上 菩 提。菩 薩 如 是 所
-cứu cánh thành tựu Vô Thượng Bồ Đề. Bồ Tát như thị sở
 xiū huí xiàng xǖ kōng jiè jìn zhòng shēng jiè jìn zhòng
 修 迴 向，虛 空 界 盡，眾 生 界 盡，眾
-
 shēng yè jìn zhòng shēng fán nǎo jìn wǒ cǐ huí xiàng wú
 生 業 盡，眾 生 煩 惱 盡，我 此 迴 向 無
-sanh nghiệp tận chúng sanh phiền não tận, ngã thử hồi hướng vô
 yǒu qióng jìn niàn niàn xiāng xǜ wú yǒu jiàn duàn shēn
 有 窮 盡。念 念 相 續，無 有 間 斷，身
-hữu cùng tận, niệm niệm tương tục vô hữu gián đoạn, thân
 yǚ yì yè wú yǒu pí yàn
-語 意 業，無 有 疲 厭。 ngữ ý nghiệp vô hữu bì yểm.
-	 	 shí yuàn gōng dé
+語 意 業，無 有 疲 厭。
+
+shí yuàn gōng dé
 (二) 十 願 功 德
-	 	 Thập Nguyện Công Đức
 shàn nán zǐ shì wéi pú sà mó hē sà shí zhǒng dà
 善 男 子！是 為 菩 薩 摩 訶 薩 十 種 大
-Thiện nam tử! Thị vi Bồ tát Ma Ha Tát thập chủng đại
 yüàn jǜ zú yüán mǎn ruò zhū pú sà yǘ cǐ dà
 願，具 足 圓 滿。若 諸 菩 薩 於 此 大
-nguyện, cụ túc viên mãn. Nhược chư Bồ Tát ư thử đại
 yüàn suí shùn qǜ rù zé néng chéng shóu yí qiè zhòng
 願 隨 順 趣 入，則 能 成 熟 一 切 眾
