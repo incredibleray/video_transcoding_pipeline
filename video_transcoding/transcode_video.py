@@ -81,7 +81,7 @@ class Video():
       self._source_video, 
       transcoded_video,
       [
-        "ffmpeg -y -i \"src_video/{source_video}.mp4\" -c:v libx264 -preset veryslow -crf 14 -c:a copy -pix_fmt yuv420p -movflags +faststart \"transcoded_video/{transcoded_video}.mp4\"",
+        "ffmpeg -y -i \"src_video/{source_video}.mp4\" -c:v libx264 -preset veryslow -crf 14 -c:a aac -b:a 192k -pix_fmt yuv420p -movflags +faststart \"transcoded_video/{transcoded_video}.mp4\"",
         'ffmpeg -y -i "src_video/{source_video}.mp4" -vf scale=246:138 -ss 10 -vframes 1 "transcoded_video/{transcoded_video}.png"',
         "az storage azcopy blob upload -c \"media\" --account-name bli -s \"transcoded_video/{transcoded_video}.*\" " 
       ],

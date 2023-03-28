@@ -1151,5 +1151,53 @@ https://americanmahayana.blob.core.windows.net/podcast/CN/98) The Avatamsaka Sut
       <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">00:43:20</itunes:duration>
       <guid isPermaLink="false"></guid>
     </item>
+    <item>
+      <title>06) 淨土開示 - 20230319</title>
+      <description>06) 淨土開示 - 20230319</description>
+      <pubDate>Sun, 19 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/06) 淨土開示 - 20230319.mp3" />
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">00:45:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>07) 禪修開示 - 亞洲 -  20230317</title>
+      <description>07) 禪修開示 - 亞洲 -  20230317</description>
+      <pubDate>Fri, 17 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/07) 禪修開示 - 亞洲 -  20230317.mp3" />
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:07:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>52) 六祖壇經 - 20230318</title>
+      <description>52) 六祖壇經 - 20230318</description>
+      <pubDate>Sat, 18 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/52) 六祖壇經 - 20230318.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:59:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>57) 大方廣佛華嚴經淺釋 - 20230319</title>
+      <description>57) 大方廣佛華嚴經淺釋 - 20230319</description>
+      <pubDate>Sun, 17 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/57) 大方廣佛華嚴經淺釋 - 20230319.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">02:05:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>08) 禪修開示 - 20230318</title>
+      <description>08) 禪修開示 - 20230318</description>
+      <pubDate>Sat, 18 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/08) 禪修開示 - 20230318.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:01:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>99) 大方廣佛華嚴經疏 - 20230317</title>
+      <description>99) 大方廣佛華嚴經疏 - 20230317</description>
+      <pubDate>Fri, 17 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/99) 大方廣佛華嚴經疏 - 20230317.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:31:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
   </channel>
 </rss>

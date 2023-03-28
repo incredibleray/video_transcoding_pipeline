@@ -107,10 +107,12 @@ ffmpeg -i mmbPlaque1.mp4 -i mmbPlaque2.mp4 -i mmbPlaque3.mp4 -filter_complex "[0
 ```
 ffmpeg -y -i mmbPlaque.mp4 -vf subtitles=mmbPlaque.srt mmbPlaqueIntroSubtitle.mp4
 
-ffmpeg -y -f lavfi -i color=size=1920x1080:rate=3:color=black -i dabeichan.m4a -vf subtitles=dabeichan.srt:force_style='Fontname=DFKai-SB,Fontsize=42' -shortest -c:v libx264 -c:a copy dabeichan.mp4
+ffmpeg -y -f lavfi -i color=size=1920x1080:rate=3:color=black -i dabeichan.m4a -vf subtitles=dabeichan.srt:force_style='Fontsize=42:Fontname=Kaiti' -shortest -c:v libx264 -c:a copy dabeichan.mp4
 
 
 ffmpeg -y -f lavfi -i color=size=1920x1080:rate=10:color=black -vf "drawtext=textfile=puxian.txt: font=Kaiti:x=200: y=h-20*t: fontsize=64:fontcolor=yellow:" -t 10:00 puxian.mp4
 ```
+
+ASS spec (used in subtitles filter of ffmpeg): http://www.tcax.org/docs/ass-specs.htm
 
 ### seeking is inaccurate for some mp3 recordings of master.
