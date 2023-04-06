@@ -3,7 +3,6 @@ import json
 import os
 from transcode_video import Video
 from audio_to_static_video import StaticVideo
-from text_find_replace import TextFindReplace
 from datetime import date
 from podcast import Podcast, UpdateRss
 
@@ -11,7 +10,7 @@ FLAGS = flags.FLAGS
 
 flags.DEFINE_enum('operation', 
 'podcast', 
-['transcode_videos', 'convert_audio_to_static_videos', 'text_find_replace',
+['transcode_videos', 'convert_audio_to_static_videos',
 'podcast'], '')
 flags.DEFINE_boolean('scan_dir_for_source_av_files', True, '')
 flags.DEFINE_multi_string("source_video", None, "")
@@ -54,13 +53,6 @@ def convert_audio_to_static_videos(source_audios):
       i+=1
 
   return manifest
-
-def find_replace_texts(input_texts):
-  for input_text in input_texts:
-    video=TextFindReplace(input_text)
-    video.Transcode()
-
-  return []
   
 def convert_videos_to_podcast(source_audios):
   manifest=[]
@@ -96,10 +88,7 @@ def main(argv):
     if FLAGS.operation =='convert_audio_to_static_videos':
       av_files_extension='.mp3'
       # av_files_extension='.m4a'
-
-    if FLAGS.operation =='text_find_replace':
-      av_files_extension='.txt'
-
+      
     if FLAGS.operation == 'podcast':
       av_files_extension='.mp4'
 
@@ -120,9 +109,6 @@ def main(argv):
   
   if FLAGS.operation =='convert_audio_to_static_videos':
     manifest=convert_audio_to_static_videos(av_files)
-
-  if FLAGS.operation =='text_find_replace':
-    manifest=find_replace_texts(av_files)
 
   if FLAGS.operation == 'podcast':
     manifest=convert_videos_to_podcast(av_files)
