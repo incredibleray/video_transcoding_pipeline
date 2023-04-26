@@ -1231,5 +1231,77 @@ https://americanmahayana.blob.core.windows.net/podcast/CN/98) The Avatamsaka Sut
       <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:59:20</itunes:duration>
       <guid isPermaLink="false"></guid>
     </item>
+    <item>
+      <title>55) 六祖壇經 - 20230407</title>
+      <description>55) 六祖壇經 - 20230407</description>
+      <pubDate>Fri, 07 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/55) 六祖壇經 - 20230407.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:30:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>54) 六祖壇經 - 20230331</title>
+      <description>54) 六祖壇經 - 20230331</description>
+      <pubDate>Fri, 31 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/54) 六祖壇經 - 20230331.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:33:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>09) 禪修開示 - 亞洲 -  20230331</title>
+      <description>09) 禪修開示 - 亞洲 -  20230331</description>
+      <pubDate>Fri, 31 Mar 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/09) 禪修開示 - 亞洲 -  20230331.mp3" />
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:20:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>09) 禪修開示 - 20230408</title>
+      <description>09) 禪修開示 - 20230408</description>
+      <pubDate>Sat, 08 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/09) 禪修開示 - 20230408.mp3" />
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:36:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>59) 大方廣佛華嚴經淺釋 - 20230409</title>
+      <description>59) 大方廣佛華嚴經淺釋 - 20230409</description>
+      <pubDate>Sun, 09 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/59) 大方廣佛華嚴經淺釋 - 20230409.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">02:05:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>58) 大方廣佛華嚴經淺釋 - 20230402</title>
+      <description>58) 大方廣佛華嚴經淺釋 - 20230402</description>
+      <pubDate>Sun, 02 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/58) 大方廣佛華嚴經淺釋 - 20230402.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">02:01:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>60) 大方廣佛華嚴經淺釋 - 20230416</title>
+      <description>60) 大方廣佛華嚴經淺釋 - 20230416</description>
+      <pubDate>Sun, 16 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/60) 大方廣佛華嚴經淺釋 - 20230416.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">02:05:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>佛七（韓國） - 20230414</title>
+      <description>佛七（韓國） - 20230414</description>
+      <pubDate>Fri, 14 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/佛七（韓國） - 20230414.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">02:04:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
+    <item>
+      <title>佛七（韓國） - 20230415</title>
+      <description>佛七（韓國） - 20230415</description>
+      <pubDate>Sat, 15 Apr 2023 13:00:00 PDT</pubDate>
+      <enclosure url="https://americanmahayana.blob.core.windows.net/podcast/CN/佛七（韓國） - 20230415.mp3"></enclosure>
+      <itunes:duration xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">01:50:20</itunes:duration>
+      <guid isPermaLink="false"></guid>
+    </item>
   </channel>
 </rss>

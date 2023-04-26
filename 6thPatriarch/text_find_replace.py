@@ -5,7 +5,7 @@ from absl import app, flags, logging
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string('sedFile', None, '')
+flags.DEFINE_string('sedFile', "transcript", '')
 flags.DEFINE_string('textFile', None, '')
 
 def main(argv):

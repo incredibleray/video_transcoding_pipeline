@@ -40,17 +40,18 @@ class Podcast():
     self._source_video_name=source_video_name
 
     
-
-    if FLAGS.lang=="en":
+    dateStrPattern = re.compile('(\d+_\d+_\d+)')
+    if dateStrPattern.findall(source_video_name):
+      dateStr=dateStrPattern.findall(source_video_name)[0]
+    else:
       dateStr=source_video_name.split(" ")[-1]
-      hashStr = hashlib.sha256(source_video_name.encode()).hexdigest()[:6]
-      transcoded_video=hashStr+"-"+dateStr
+
+    hashStr = hashlib.sha256(source_video_name.encode()).hexdigest()[:6]
+    transcoded_video=hashStr+"-"+dateStr
+    
+    if FLAGS.lang=="en":
       storageDir="podcast/EN"
     elif FLAGS.lang=="kr":
-      dateStrPattern = re.compile('(\d+_\d+_\d+)')
-      dateStr=dateStrPattern.findall(source_video_name)[0]
-      hashStr = hashlib.sha256(source_video_name.encode()).hexdigest()[:6]
-      transcoded_video=hashStr+"-"+dateStr
       storageDir="podcast/KR"
     else:
       transcoded_video=source_video_name
@@ -67,8 +68,8 @@ class Podcast():
       ]
 
     # if FLAGS.lang in ("kr", "en"):
-    if FLAGS.lang =="kr":
-      cmds=cmds[:1]
+    # if FLAGS.lang =="kr":
+    #   cmds=cmds[:1]
     
     podcast=VideoTranscodeTask(
       self._source_video, 
@@ -142,8 +143,8 @@ class UpdateRss():
           # guid.text=str(uuid.uuid4())
           pubDate=ET.SubElement(newItem, "pubDate")
           
-          if FLAGS.lang=="kr":
-            dateStrPattern = re.compile('(\d+)_(\d+)_(\d+)')
+          dateStrPattern = re.compile('(\d+)_(\d+)_(\d+)')
+          if dateStrPattern.findall(e['title']):
             dateStr=dateStrPattern.findall(e['title'])[0]
             d=datetime.date(int(dateStr[0]), int(dateStr[1]), int(dateStr[2]))
           else:
